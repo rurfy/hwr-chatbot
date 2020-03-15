@@ -32,4 +32,5 @@
 
 ## faq
 * faq
+  - utter_greet
   - respond_faq

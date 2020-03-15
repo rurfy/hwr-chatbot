@@ -31,6 +31,14 @@
 - Praxistransferbericht
 - PTB
 
+## intent: faq/ptb/richtlinien
+- Richtlinien
+- Formalitaeten
+
+## intent: faq/ptb/umfang
+- Umfang
+- Seitenzahl
+
 ## intent: faq/studiengebuehren
 - Gebuehren
 - Geld
