@@ -1,8 +1,8 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: de
-pipeline:
-  - name: pretrained_embeddings_spacy
+pipeline: pretrained_embeddings_spacy
+pipeline: 
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
@@ -16,6 +16,7 @@ pipeline:
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
+
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
