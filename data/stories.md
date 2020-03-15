@@ -1,4 +1,4 @@
-s## faq
+## faq
 * greet
   - utter_greet
 * faq
