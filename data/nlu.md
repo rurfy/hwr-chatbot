@@ -7,24 +7,27 @@
 
 ## intent:goodbye
 - bye
-- goodbye
-- see you around
-- see you later
+- ciao
+- tschüss
+- tschau
+- bis dann
+- auf Wiedersehen
 
 ## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+- ja
+- genau
+- exakt
+- bestätige
+- korrekt
+- natürlich
 
 ## intent:deny
-- no
+- nein
+- niemals
+- ich glaube nicht
 - never
-- I don't think so
-- don't like that
-- no way
-- not really
+- auf keinen fall
+- nicht wirklich
 
 ## intent: faq/ptb
 - Praxistransferbericht
