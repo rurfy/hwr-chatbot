@@ -1,10 +1,9 @@
 ## intent:greet
 - hey
-- hello
+- hallo
 - hi
-- good morning
-- good evening
-- hey there
+- Guten Morgen
+- Guten Abend
 
 ## intent:goodbye
 - bye

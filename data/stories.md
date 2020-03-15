@@ -31,6 +31,8 @@
   - utter_iamabot
 
 ## faq
+* greet
+  - utter_greet
 * faq
   - respond_faq
 * ptb
