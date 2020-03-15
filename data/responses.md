@@ -1,6 +1,6 @@
 ## ptb
 * faq/ptb
-    - Test für PTB haha.
+    - Du hast eine Frage zum PTB, wozu genau?
 
 ## richtlinien
 * ptb/richtlinien

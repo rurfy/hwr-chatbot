@@ -6,6 +6,9 @@
 * ptb
   - respond_ptb
 
-## ptb
-* ptb
-  - respond_ptb
+## no_entiedo
+* greet
+  - utter_greet
+* faq
+  - respond_faq
+  

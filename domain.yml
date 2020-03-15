@@ -17,6 +17,21 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
+  utter_understand:
+  - text: "Ich habe verstanden."
+
+  utter_not_understand:
+  - text: "Das habe ich leider nicht verstanden."
+
+  utter_ensure:
+  - text: "Konnte ich dir weiterhelfen?"
+
+  list_of_content:
+  - text: "Ich kann dir über folgende Sachen was sagen..."
+
+  utter_default:
+  - text: "Das habe ich leider nicht verstanden."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
