@@ -9,8 +9,6 @@ pipeline:
   - name: "CRFEntityExtractor"
   - name: "EntitySynonymMapper"
   - name: "SklearnIntentClassifier"
-  - name: WhitespaceTokenizer
-  - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
