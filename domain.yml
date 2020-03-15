@@ -4,9 +4,11 @@ intents:
   - affirm
   - deny
   - faq
+  - ptb
 
 actions:
   - respond_faq
+  - respond_ptb
 
 responses:
   utter_greet:

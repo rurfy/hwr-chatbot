@@ -31,11 +31,11 @@
 - Praxistransferbericht
 - PTB
 
-## intent: faq/ptb/richtlinien
+## intent: ptb/richtlinien
 - Richtlinien
 - Formalitaeten
 
-## intent: faq/ptb/umfang
+## intent: ptb/umfang
 - Umfang
 - Seitenzahl
 

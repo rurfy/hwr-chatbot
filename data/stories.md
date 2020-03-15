@@ -32,5 +32,10 @@
 
 ## faq
 * faq
-  - utter_greet
   - respond_faq
+* ptb
+  - respond_ptb
+
+## ptb
+* ptb
+  - respond_ptb

@@ -3,11 +3,11 @@
     - Test für PTB haha.
 
 ## richtlinien
-* faq/ptb/richtlinien
+* ptb/richtlinien
     - Alles zu den Richtlinien [die ich so toll finde](https://google.com).
 
 ## umfang
-* faq/ptb/umfang
+* ptb/umfang
     - Der Umfang ist so toll.
 
 ## studiengebuehren
