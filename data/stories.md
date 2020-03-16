@@ -1,6 +1,6 @@
 ## faq
 * greet
-  - utter_greet
+  - action_greet
 * faq
   - respond_faq
 * ptb
@@ -8,7 +8,7 @@
 
 ## no_entiedo
 * greet
-  - utter_greet
+  - action_greet
 * faq
   - respond_faq
   
