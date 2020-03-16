@@ -4,15 +4,23 @@
 # See this guide on how to implement these action:
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
-from rasa_sdk import Action
-from rasa_sdk.events import UserUtteranceReverted
+
+# This is a simple example for a custom action which utters "Hello World!"
+
+from typing import Any, Text, Dict, List
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+
 
 class ActionGreetUser(Action):
-"""Greets the User on StartUp"""
 
-def name(self):
-    return "action_greet"
+    def name(self) -> Text:
+        return "action_greet"
 
-def run(self, dispatcher, tracker, domain):
-    dispatcher.utter_template("utter_greet", tracker)
-    return [UserUtteranceReverted()]
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_template("utter_greet", tracker)
+
+        return []
