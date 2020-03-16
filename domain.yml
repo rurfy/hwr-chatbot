@@ -5,10 +5,13 @@ intents:
   - deny
   - faq
   - ptb
+  - out_of_scope
 
 actions:
   - respond_faq
   - respond_ptb
+  - action_default_fallback
+  - action_greet
 
 responses:
   utter_greet:
