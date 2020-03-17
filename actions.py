@@ -11,7 +11,7 @@ from rasa_sdk import Action
 
 class ActionGreetUser(Action):
 
-    def name(self) -> Text:
+    def name(self):
         return "action_greet"
 
     def run(self, dispatcher, tracker, domain):
