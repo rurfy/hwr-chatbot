@@ -1,0 +1,35 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+
+  utter_imma_ablauf:
+  - text: "Hier sind deine Infos zum Ablauf der Imma"
+
+  utter_ask_imma_information:
+  - text: "Du willst mehr über die Imma wissen? Dann sag mir bitte wofür du dich genau interessierst"
+
+  utter_ask_ptb_information:
+  - text: "Du willst mehr über den PTB wissen? Dann sag mir bitte wofür du dich genau interessierst"
+
+  utter_ptb_richtlinien:
+  - text: "Hier sind deine Infos zu den Richtlinien des PTB"
+  
+  utter_greet:
+  - text: "Hi! Wie kann ich dir weiterhelfen?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
