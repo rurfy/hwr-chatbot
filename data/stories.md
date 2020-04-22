@@ -3,7 +3,7 @@
   - utter_greet
 * provide_topic{"imma_information":"Ablauf", "topic":"Immatrikulation"}
   - utter_imma_ablauf
-* thanks
+* goodbye
   - utter_goodbye
 
 ## imma no information ablauf path
@@ -13,7 +13,7 @@
   - utter_ask_imma_information
 * inform_imma{"imma_information":"Ablauf"}
   - utter_imma_ablauf
-* thanks
+* goodbye
   - utter_goodbye
 
 ## ptb richtlinien path
@@ -21,7 +21,7 @@
   - utter_greet
 * provide_topic{"ptb_information":"Richtlinien", "topic":"PTB"}
   - utter_ptb_richtlinien
-* thanks
+* goodbye
   - utter_goodbye
 
 ## ptb no information richtlinien path
@@ -31,7 +31,151 @@
   - utter_ask_ptb_information
 * inform_ptb{"ptb_information":"Richtlinien"}
   - utter_ptb_richtlinien
-* thanks
+* goodbye
+  - utter_goodbye
+
+## semesterticket erhalten path
+* greet
+  - utter_greet
+* provide_topic{"semesterticket_information":"erhalten", "topic":"Semesterticket"}
+  - utter_semesterticket_erhalten
+* goodbye
+  - utter_goodbye
+
+## semesterticket no information erhalten path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket"}
+  - utter_ask_semesterticket_information
+* inform_ptb{"semesterticket_information":"erhalten"}
+  - utter_semesterticket_erhalten
+* goodbye
+  - utter_goodbye
+
+<!-- ## semesterticket aktualisierung path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket", "semesterticket_information":"Aktualisierung"}
+  - utter_semesterticket_aktualisierung
+* goodbye
+  - utter_goodbye
+
+## semesterticket no information aktualisierung path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket"}
+  - utter_ask_semesterticket_information
+* inform_ptb{"semesterticket_information":"Aktualisierung"}
+  - utter_semesterticket_aktualisierung
+* goodbye
+  - utter_goodbye -->
+
+## semesterticket vbb path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket", "semesterticket_information":"VBB"}
+  - utter_semesterticket_vbb
+* goodbye
+  - utter_goodbye
+
+## semesterticket no information vbb path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket"}
+  - utter_ask_semesterticket_information
+* inform_ptb{"semesterticket_information":"VBB"}
+  - utter_semesterticket_vbb
+* goodbye
+  - utter_goodbye
+
+## semesterticket fahrrad path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket", "semesterticket_information":"Fahrrad"}
+  - utter_semesterticket_fahrrad
+* goodbye
+  - utter_goodbye
+
+## semesterticket no information fahrrad path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket"}
+  - utter_ask_semesterticket_information
+* inform_ptb{"semesterticket_information":"Fahrrad"}
+  - utter_semesterticket_fahrrad
+* goodbye
+  - utter_goodbye
+
+## semesterticket abc path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket", "semesterticket_information":"ABC"}
+  - utter_semesterticket_abc
+* goodbye
+  - utter_goodbye
+
+## semesterticket no information abc path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket"}
+  - utter_ask_semesterticket_information
+* inform_ptb{"semesterticket_information":"ABC"}
+  - utter_semesterticket_abc
+* goodbye
+  - utter_goodbye
+
+## semesterticket brandenburg path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket","semesterticket_information":"Brandenburg"}
+  - utter_semesterticket_brandenburg
+* goodbye
+  - utter_goodbye
+
+## semesterticket no information brandenburg path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket"}
+  - utter_ask_semesterticket_information
+* inform_ptb{"semesterticket_information":"Brandenburg"}
+  - utter_semesterticket_brandenburg
+* goodbye
+  - utter_goodbye
+
+## semesterticket ansprechpartner path
+* greet
+  - utter_greet
+* provide_topic{"semesterticket_information":"Ansprechpartner", "topic":"Semesterticket"}
+  - utter_semesterticket_ansprechpartner
+* goodbye
+  - utter_goodbye
+
+## semesterticket no information ansprechpartner path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket"}
+  - utter_ask_semesterticket_information
+* inform_ptb{"semesterticket_information":"Ansprechpartner"}
+  - utter_semesterticket_ansprechpartner
+* goodbye
+  - utter_goodbye
+
+## semesterticket informationen path
+* greet
+  - utter_greet
+* provide_topic{"semesterticket_information":"Informationen", "topic":"Semesterticket"}
+  - utter_semesterticket_info
+* goodbye
+  - utter_goodbye
+
+## semesterticket no information informationen path
+* greet
+  - utter_greet
+* provide_topic{"topic":"Semesterticket"}
+  - utter_ask_semesterticket_information
+* inform_ptb{"semesterticket_information":"Informationen"}
+  - utter_semesterticket_info
+* goodbye
   - utter_goodbye
 
 ## say goodbye

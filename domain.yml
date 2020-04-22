@@ -3,9 +3,17 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - provide_topic
+  - inform_imma
+  - inform_ptb
+  - inform_semesterticket
+  - thanks
+
+entities:
+  - topic
+  - semesterticket_information
+  - imma_information
+  - ptb_information
 
 responses:
 
@@ -20,7 +28,34 @@ responses:
 
   utter_ptb_richtlinien:
   - text: "Hier sind deine Infos zu den Richtlinien des PTB"
-  
+
+  utter_ask_semesterticket_information:
+  - text: "Du willst mehr über dein Semesterticket erfahren? Dann sage mir bitte wofür du dich genau interessierst. Ich kann die Auskunft über wie du dein Semesterticket erhalten kannst, die Aktualisierung, den VBB, Fahrrad, ABC, Brandenburg, Ansprechpartner und wo du weitere Informationen findest geben."
+
+  utter_semesterticket_erhalten:
+  - text: "Das Semesterticket ist in den Studiengebühren enthalten. Zum Fahrtantritt benötigst du deinen Studierendenausweis."
+
+  utter_semesterticket_aktualisierung:
+  - text: "Nach Eingang der Zahlung von den Semestergebühren, kannst du an einen der Automaten (Foyer Haus 1 oder Haus 6A) dein Semesterticket auf den Studierendenausweis drucken lassen. Beachte hierzu die Anleitung auf den Automaten. "
+   
+  utter_semesterticket_vbb:
+  - text: "Das Ticket gilt für den gesamten Verkehrsraum des VBB (Verkehrsbund Berlin Brandenburg)."
+
+  utter_semesterticket_fahrrad:
+  - text: "Eine Fahrradmitnahme ist möglich."
+
+  utter_semesterticket_abc:
+  - text: "Bei dem Ticket handelt es sich um ein ABC-Ticket. Du kannst damit im kompletten Bereich des VVB fahren."
+
+  utter_semesterticket_brandenburg:
+  - text: "Du kannst in Brandenburg insofern fahren, wenn dein Fahrziel im C-Bereich liegt."
+
+  utter_semesterticket_ansprechpartner:
+  - text: "Ansprechpartnerin ist Anne-Katrin Pagel (anne-katrin.pagel@hwr-berlin.de)."
+
+  utter_semesterticket_info:
+  - text: "weitere Informationen findest du hier: https://moodle.hwr-berlin.de/mod/forum/discuss.php?d=10680, https://www.it.hwr-berlin.de/campuscard/haeufige-fragen/"
+
   utter_greet:
   - text: "Hi! Wie kann ich dir weiterhelfen?"
 
