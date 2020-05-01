@@ -395,6 +395,38 @@
 * goodbye
   - utter_goodbye
 
+## noten
+* greet
+  - utter_greet
+* provide_topic_noten{"topic":"Noten"}
+  - utter_ask_noten
+* goodbye
+  - utter_goodbye
+
+## wpf
+* greet
+  - utter_greet
+* provide_topic_wpf{"topic":"WPF"}
+  - utter_ask_wpf
+* goodbye
+  - utter_goodbye
+
+## modul
+* greet
+  - utter_greet
+* provide_topic_modul{"topic":"Modul"}
+  - utter_ask_modul
+* goodbye
+  - utter_goodbye
+
+## auslandssemester
+* greet
+  - utter_greet
+* provide_topic_auslandssemester{"topic":"Auslandssemster"}
+  - utter_ask_auslandssemester
+* goodbye
+  - utter_goodbye
+
 ## say goodbye
 * goodbye
   - utter_goodbye
