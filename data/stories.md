@@ -235,6 +235,166 @@
 * goodbye
   - utter_goodbye
 
+## studentenausweis kaputt path
+* greet
+  - utter_greet
+* studentenausweis_kaputt{"topic":"Studentenausweis","studentenausweis":"kaputt"}
+  - utter_studentenausweis_kaputt
+* goodbye
+  - utter_goodbye
+
+## studentenausweis no information kaputt path
+* greet
+  - utter_greet
+* provide_topic_studentenausweis{"topic":"Studentenausweis"}
+  - utter_ask_studentenausweis
+* studentenausweis_kaputt{"studentenausweis":"kaputt"}
+  - utter_studentenausweis_kaputt
+* goodbye
+  - utter_goodbye
+
+## studentenausweis verloren path
+* greet
+  - utter_greet
+* studentenausweis_verloren{"topic":"Studentenausweis","studentenausweis":"verloren"}
+  - utter_studentenausweis_verloren
+* goodbye
+  - utter_goodbye
+
+## studentenausweis no information verloren path
+* greet
+  - utter_greet
+* provide_topic_studentenausweis{"topic":"Studentenausweis"}
+  - utter_ask_studentenausweis
+* studentenausweis_verloren{"studentenausweis":"verloren"}
+  - utter_studentenausweis_verloren
+* goodbye
+  - utter_goodbye
+
+## studienberatung
+* greet
+ - utter_greet
+* provide_topic_studienberatung{"topic":"Studienberatung"}
+ - utter_ask_studienberatung
+* goodbye
+ - utter_goodbye
+
+## matrikelnummer
+* greet
+  - utter_greet
+* provide_topic_matrikelnummer
+  - utter_ask_matrikelnummer
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto moodle path
+* greet
+  - utter_greet
+* benutzerkonto_moodle{"topic":"Benutzerkonto","benutzerkonto":"Moodle"}
+  - utter_benutzerkonto_moodle
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto no information moodle path
+* greet
+  - utter_greet
+* provide_topic_benutzerkonto{"topic":"Benutzerkonto"}
+  - utter_ask_benutzerkonto
+* benutzerkonto_moodle{"benutzerkonto":"Moodle"}
+  - utter_benutzerkonto_moodle
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto computer path
+* greet
+  - utter_greet
+* benutzerkonto_computer{"topic":"Benutzerkonto","benutzerkonto":"Computer"}
+  - utter_benutzerkonto_computer
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto no information computer path
+* greet
+  - utter_greet
+* provide_topic_benutzerkonto{"topic":"Benutzerkonto"}
+  - utter_ask_benutzerkonto
+* benutzerkonto_computer{"benutzerkonto":"Computer"}
+  - utter_benutzerkonto_computer
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto pw path
+* greet
+  - utter_greet
+* benutzerkonto_pw{"topic":"Benutzerkonto","benutzerkonto":"Passwort"}
+  - utter_benutzerkonto_pw
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto no information pw path
+* greet
+  - utter_greet
+* provide_topic_benutzerkonto{"topic":"Benutzerkonto"}
+  - utter_ask_benutzerkonto
+* benutzerkonto_pw{"benutzerkonto":"Passwort"}
+  - utter_benutzerkonto_pw
+* goodbye
+  - utter_goodbye
+
+## mail adresse path
+* greet
+  - utter_greet
+* mail_adresse{"topic":"Mail","mail":"Adresse"}
+  - utter_mail_adresse
+* goodbye
+  - utter_goodbye
+
+## mail no information adresse path
+* greet
+  - utter_greet
+* provide_topic_mail{"topic":"Mail"}
+  - utter_ask_mail
+* mail_adresse{"mail":"Adresse"}
+  - utter_mail_adresse
+* goodbye
+  - utter_goodbye
+
+## mail abrufen path
+* greet
+  - utter_greet
+* mail_abrufen{"topic":"Mail","mail":"abrufen"}
+  - utter_mail_abrufen
+* goodbye
+  - utter_goodbye
+
+## mail no information abrufen path
+* greet
+  - utter_greet
+* provide_topic_mail{"topic":"Mail"}
+  - utter_ask_mail
+* mail_abrufen{"mail":"abrufen"}
+  - utter_mail_abrufen
+* goodbye
+  - utter_goodbye
+
+## mail portal path
+* greet
+  - utter_greet
+* mail_portal{"topic":"Mail","mail":"Portal"}
+  - utter_mail_portal
+* goodbye
+  - utter_goodbye
+
+## mail no information portal path
+* greet
+  - utter_greet
+* provide_topic_mail{"topic":"Mail"}
+  - utter_ask_mail
+* mail_portal{"mail":"Portal"}
+  - utter_mail_portal
+* goodbye
+  - utter_goodbye
+
 ## say goodbye
 * goodbye
   - utter_goodbye

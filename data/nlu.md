@@ -114,5 +114,91 @@
 - Wie kann ich mein [Semesterticket](topic) [erhalten](semesterticket)?
 - Wie kann ich mein [Semesterticket](topic) [bekommen](semesterticket:erhalten)?
 
+## intent:provide_topic_studentenausweis
+- [Studentenausweis](topic)
+- [Studierendenausweis](topic:Studentenausweis)
+- [CampusCard](topic:Studentenausweis)
+- Kannst du mir beim [Studentenausweis](topic) weiterhelfen?
 
+## intent:studentenausweis_kaputt
+- [kaputt](studentenausweis)
+- [funktioniert nicht](studentenausweis:kaputt)
+- [geht nicht](studentenausweis:kaputt)
+- Mein [Studentenausweis](topic) [geht nicht](studentenausweis:kaputt).
+- Mein [Studentenausweis](topic) [funktioniert nicht](studentenausweis:kaputt).
+- Mein [Studentenausweis](topic) ist [kaputt](studentenausweis).
 
+## intent:studentenausweis_verloren
+- [verloren](studentenausweis)
+- Ich habe meinen [Studentenausweis](topic) [verloren](studentenausweis).
+
+## intent:provide_topic_studienberatung
+- [Studienberatung](topic)
+- Kannst du mir sagen, wen ich für die [Studienberatung](topic) anschreiben muss?
+- Kannst du mir bei der [Studienberatung](topic) helfen?
+
+## intent:provide_topic_matrikelnummer
+- [Matrikelnummer](topic)
+- Was ist eine [Matrikelnummer](topic)?
+- Wofür brauche ich eine [Matrikelnummer](topic)?
+- Was kann ich mit der [Matrikelnummer](topic) anfangen?
+
+## intent:provide_topic_benutzerkonto
+- [Benutzerkonto](topic)
+- [Account](topic:Benutzerkonto)
+- [Benutzerkonten](topic:Benutzerkonto)
+- [Anmeldedaten](topic:Benutzerkonto)
+- [anmelden](topic:Benutzerkonto)
+- Kannst du mir bei den [Benutzerkonten](topic:Benutzerkonto) helfen?
+- Ich habe den Überblick über meine [Anmeldedaten](topic:Benutzerkonto) verloren.
+- Ich habe den Überblick über meine [Benutzerkonten](topic:Benutzerkonto) verloren.
+- Ich habe den Überblick über meine [Account](topic:Benutzerkonto) verloren.
+- Kannst du mir sagen wie ich mich [anmelden](topic:Benutzerkonto) muss?
+
+## intent:benutzerkonto_moodle
+- [Moodle](benutzerkonto)
+- Wie muss ich bei [Moodle](benutzerkonto) [anmelden](topic:Benutzerkonto)?
+- Wie melde ich mich bei [Moodle] an?
+- Was sind die [Anmeldedaten](topic:Benutzerkonto) für [Moodle](benutzerkonto)?
+
+## intent:benutzerkonto_computer
+- [Computer](benutzerkonto)
+- Wie muss ich am [Computer](benutzerkonto) [anmelden](topic:Benutzerkonto)?
+- Wie melde ich mich am [Computer] an?
+- Was sind die [Anmeldedaten](topic:Benutzerkonto) für den [Computer](benutzerkonto)?
+
+## intent:benutzerkonto_pw
+- [Passwort vergessen](benutzerkonto)
+- Was muss ich machen, wenn ich mein [Passwort vergessen](benutzerkonto) habe?
+- Was muss ich machen, wenn ich mein [Passwort vergessen](benutzerkonto) für meinen [Account](topic:Benutzerkonto) habe?
+- Was muss ich machen, wenn ich mein [Passwort vergessen](benutzerkonto) für meinen [Benutzerkonto](topic) habe?
+
+## intent:provide_topic_mail
+- [Mail](topic)
+- [E-Mail](topic:Mail)
+- [Email](topic:Mail)
+
+## intent:mail_adresse
+- [Adresse](mail)
+- [Mailadresse](mail:Adresse)
+- Wie lautet meine [Mail](topic) [Adresse](mail)?
+- Wie lautet meine [E-Mail](topic:Mail) [Adresse](mail)?
+- Wie lautet meine [Email](topic:Mail) [Adresse](mail)?
+- Wie lautet meine [Mailadresse](mail:Adresse)?
+- Wie setzt sich meine [Mail](topic) [Adresse](mail) zusammen?
+- Wie setzt sich meine [E-Mail](topic:Mail) [Adresse](mail) zusammen?
+- Wie setzt sich meine [Email](topic:Mail) [Adresse](mail) zusammen?
+- Wie setzt sich meine [Emailadresse](mail:Adresse) zusammen?
+
+## intent:mail_abrufen
+- [abrufen](mail)
+- Wo kann ich den meine [Mail](topic) [abrufen](mail)?
+- Wo kann ich den meine [E-Mail](topic:Mail) [abrufen](mail)?
+- Wo kann ich den meine [Email](topic:Mail) [abrufen](mail)?
+
+## intent:mail_portal
+- [Portal](mail)
+- Wo finde ich das [Portal](mail)?
+- Wo finde ich das [Mail](topic) [Portal](mail)?
+- Wo finde ich das [E-Mail](topic:Mail) [Portal](mail)?
+- Wo finde ich das [Email](topic:Mail) [Portal](mail)?
