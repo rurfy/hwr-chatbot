@@ -4,9 +4,20 @@ intents:
   - affirm
   - deny
   - provide_topic
+  - provide_topic_ptb
+  - provide_topic_imma
+  - provide_topic_semesterticket
   - inform_imma
   - inform_ptb
   - inform_semesterticket
+  - inform_semesterticket_aktualisierung
+  - inform_semesterticket_vbb
+  - inform_semesterticket_fahrrad
+  - inform_semesterticket_abc
+  - inform_semesterticket_brandenburg
+  - inform_semesterticket_info
+  - inform_semesterticket_ansprechpartner
+  - inform_semesterticket_erhalten
   - thanks
 
 entities:
@@ -45,7 +56,7 @@ responses:
   - text: "Eine Fahrradmitnahme ist möglich."
 
   utter_semesterticket_abc:
-  - text: "Bei dem Ticket handelt es sich um ein ABC-Ticket. Du kannst damit im kompletten Bereich des VVB fahren."
+  - text: "Bei dem Ticket handelt es sich um ein ABC-Ticket. Du kannst damit im kompletten Bereich des VBB fahren."
 
   utter_semesterticket_brandenburg:
   - text: "Du kannst in Brandenburg insofern fahren, wenn dein Fahrziel im C-Bereich liegt."
