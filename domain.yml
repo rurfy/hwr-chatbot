@@ -7,40 +7,51 @@ intents:
   - provide_topic_ptb
   - provide_topic_imma
   - provide_topic_semesterticket
-  - inform_imma
-  - inform_ptb
-  - inform_semesterticket
-  - inform_semesterticket_aktualisierung
-  - inform_semesterticket_vbb
-  - inform_semesterticket_fahrrad
-  - inform_semesterticket_abc
-  - inform_semesterticket_brandenburg
-  - inform_semesterticket_info
-  - inform_semesterticket_ansprechpartner
-  - inform_semesterticket_erhalten
+  - imma_ablauf
+  - imma_ansprechpartner
+  - imma_bescheinigung
+  - ptb_umfang
+  - ptb_richtlinien
+  - semesterticket_aktualisierung
+  - semesterticket_vbb
+  - semesterticket_fahrrad
+  - semesterticket_abc
+  - semesterticket_brandenburg
+  - semesterticket_info
+  - semesterticket_ansprechpartner
+  - semesterticket_erhalten
   - thanks
 
 entities:
   - topic
-  - semesterticket_information
-  - imma_information
-  - ptb_information
+  - semesterticket
+  - imma
+  - ptb
 
 responses:
 
   utter_imma_ablauf:
-  - text: "Hier sind deine Infos zum Ablauf der Imma"
+  - text: "Du erhältst eine Mail vom Fachrichtungsbüro zum Vorgehen. Abitur-Zeugnisse und ggf. Weitere Informationen musst du dann an das Fachrichtungsbüro senden"
 
-  utter_ask_imma_information:
+  utter_ask_imma:
   - text: "Du willst mehr über die Imma wissen? Dann sag mir bitte wofür du dich genau interessierst"
 
-  utter_ask_ptb_information:
+  utter_imma_ansprechpartner:
+  - text: "Ansprechpartner zur Immatrikulation ist das Fachrichtungsbüro. Dieses besteht aus Frau Heydeck (daniela.heydeck@hwr-berlin.de) und Frau Affeldt (simone.affledt@hwr-berlin.de)"
+
+  utter_imma_bescheinigung:
+  - text: "Nach abgeschlossener Immatrikulation bekommst Du eine Bescheinigung per Post zugeschickt"
+
+  utter_ask_ptb:
   - text: "Du willst mehr über den PTB wissen? Dann sag mir bitte wofür du dich genau interessierst"
 
   utter_ptb_richtlinien:
-  - text: "Hier sind deine Infos zu den Richtlinien des PTB"
+  - text: "Dazu findest du alle nötigen Informationen in den Verbindlichen Richtlinien für das Abfassen von Seminararbeit, PTB, Studienarbeit und Bachelor-Thesis. Wissenschaftliche Arbeiten müssen auf Grundlage der verbindlichen Richtlinien verfasst werden. Diese findest du im Moodle, in der Rubrik des Fachrichtungsbüros. Weitere Informationen findest du hier: https://moodle.hwr-berlin.de/mod/folder/view.php?id=49455"
 
-  utter_ask_semesterticket_information:
+  utter_ptb_umfang:
+  - text: "Dein PTB sollte 10 Seiten plus / minus 10% umfassen. Weitere Infos findet du hier: https://moodle.hwr-berlin.de/course/view.php?id=266#section-6"
+
+  utter_ask_semesterticket:
   - text: "Du willst mehr über dein Semesterticket erfahren? Dann sage mir bitte wofür du dich genau interessierst. Ich kann die Auskunft über wie du dein Semesterticket erhalten kannst, die Aktualisierung, den VBB, Fahrrad, ABC, Brandenburg, Ansprechpartner und wo du weitere Informationen findest geben."
 
   utter_semesterticket_erhalten:

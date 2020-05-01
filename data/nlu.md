@@ -33,79 +33,86 @@
 - Kannst du mir bei der [Immatrikulation](topic) helfen?
 - Ich brauche Infos zur [Immatrikulation](topic)
 - Was muss ich bei der [Immatrikulation](topic) beachten?
-- Was muss ich beim [Ablauf](imma_information) der [Immatrikulation](topic) beachten?
+
+## intent:imma_ablauf
+- [Ablauf](imma)
+- Was muss ich beim [Ablauf](imma) der [Immatrikulation](topic) beachten?
+
+## intent:imma_ansprechpartner
+- [Ansprechpartner](imma)
+- Wenn muss ich zum Thema [Ansprechpartner](imma) fragen?
+
+## intent:imma_bescheinigung
+- [Bescheinigung](imma)
+- Wie erhalte ich die [Bescheinigung](imma)
 
 ## intent:provide_topic_ptb
 - [PTB](topic)
-- Was muss ich bei den [Richtlinien](ptb_information) des [PTB](topic) beachten?
-- Worauf muss ich beim [Richtlinien](ptb_information) des [PTB](topic) achten?
-- Was muss ich bei den [Formalitäten](ptb_information:Richtlinien) des [PTB](topic) beachten?
+- Kannst du mir beim [PTB](topic) helfen?
+
+# intent:ptb_richtlinien
+- [Formalitäten](ptb:Richtlinien)
+- [Quellen](ptb:Richtlinien)
+- [Zitation](ptb:Richtlinien)
+- [zitieren](ptb:Richtlinien)
+- Was muss ich bei den [Richtlinien](ptb) des [PTB](topic) beachten?
+- Worauf muss ich beim [Richtlinien](ptb) des [PTB](topic) achten?
+- Was muss ich bei den [Formalitäten](ptb:Richtlinien) des [PTB](topic) beachten?
+
+# intent:ptb_umfang
+- [Umfang](ptb)
+- [Länge](ptb:Umfang)
+- [Seitenanzahl](ptb:Umfang)
 
 ## intent:provide_topic_semesterticket
 - [Semesterticket](topic)
 - Kannst du mir bei dem [Semesterticket](topic) helfen?
 
-## intent:inform_semesterticket_aktualisierung
-- [Aktualisierung](semesterticket_information)
-- [aktualisieren](semesterticket_information:Aktualisierung)
-- [gültig](semesterticket_information:Aktualisierung)
-- [aufladen](semesterticket_information:Aktualisierung)
-- Wie kann ich mein [Semesterticket](topic) [aktualisieren](semesterticket_information:Aktualisierung)?
-- Ist mein [Semesterticket](topic) [gültig](semesterticket_information:Aktualisierung)?
-- Wie kann ich mein [Semesterticket](topic) [aufladen](semesterticket_information:Aktualisierung)?
+## intent:semesterticket_aktualisierung
+- [Aktualisierung](semesterticket)
+- [aktualisieren](semesterticket:Aktualisierung)
+- [gültig](semesterticket:Aktualisierung)
+- [aufladen](semesterticket:Aktualisierung)
+- Wie kann ich mein [Semesterticket](topic) [aktualisieren](semesterticket:Aktualisierung)?
+- Ist mein [Semesterticket](topic) [gültig](semesterticket:Aktualisierung)?
+- Wie kann ich mein [Semesterticket](topic) [aufladen](semesterticket:Aktualisierung)?
 
-## intent:inform_semesterticket_vbb
-- [VBB](semesterticket_information)
-- Gilt mein [Semesterticket](topic) für den [VBB](semesterticket_information)?
+## intent:semesterticket_vbb
+- [VBB](semesterticket)
+- Gilt mein [Semesterticket](topic) für den [VBB](semesterticket)?
 
-## intent:inform_semesterticket_fahrrad
-- [Fahrrad](semesterticket_information)
-- Kann ich mit dem [Semesterticket](topic) ein [Fahrrad](semesterticket_information) mitnehmen?
-- Kann ich mit dem [Semesterticket](topic) ein [Fahrrad](semesterticket_information) befördern?
+## intent:semesterticket_fahrrad
+- [Fahrrad](semesterticket)
+- Kann ich mit dem [Semesterticket](topic) ein [Fahrrad](semesterticket) mitnehmen?
+- Kann ich mit dem [Semesterticket](topic) ein [Fahrrad](semesterticket) befördern?
 
-## intent:inform_semesterticket_brandenburg
-- [Brandenburg](semesterticket_information)
-- Kann ich mit dem [Semesterticket](topic) in [Brandenburg](semesterticket_information) fahren?
+## intent:semesterticket_brandenburg
+- [Brandenburg](semesterticket)
+- Kann ich mit dem [Semesterticket](topic) in [Brandenburg](semesterticket) fahren?
 
-## intent:inform_semesterticket_abc
-- [ABC](semesterticket_information)
-- Kann ich mit dem [Semesterticket](topic) im [ABC](semesterticket_information) Bereich fahren?
+## intent:semesterticket_abc
+- [ABC](semesterticket)
+- Kann ich mit dem [Semesterticket](topic) im [ABC](semesterticket) Bereich fahren?
 
-## intent:inform_semesterticket_info
-- [Informationen](semesterticket_information)
-- [Infos](semesterticket_information:Informationen)
-- Hast du noch weitere [Informationen](semesterticket_information) zum [Semesterticket](topic)?
-- Hast du noch weitere [Infos](semesterticket_information:Informationen) zum [Semesterticket](topic)?
+## intent:semesterticket_info
+- [Informationen](semesterticket)
+- [Infos](semesterticket:Informationen)
+- Hast du noch weitere [Informationen](semesterticket) zum [Semesterticket](topic)?
+- Hast du noch weitere [Infos](semesterticket:Informationen) zum [Semesterticket](topic)?
 
-## intent:inform_semesterticket_ansprechpartner
-- [Ansprechpartner](semesterticket_information)
-- [Ansprechpartnerin](semesterticket_information:Ansprechpartner)
-- Wer ist der [Ansprechpartner](semesterticket_information) für das [Semesterticket](topic)?
-- Wer ist die [Ansprechpartnerin](semesterticket_information:Ansprechpartner) für das [Semesterticket](topic)? 
+## intent:semesterticket_ansprechpartner
+- [Ansprechpartner](semesterticket)
+- [Ansprechpartnerin](semesterticket:Ansprechpartner)
+- Wer ist der [Ansprechpartner](semesterticket) für das [Semesterticket](topic)?
+- Wer ist die [Ansprechpartnerin](semesterticket:Ansprechpartner) für das [Semesterticket](topic)? 
 
-## intent:inform_semesterticket_erhalten
-- [erhalten](semesterticket_information)
-- [bekommen](semesterticket_information:erhalten)
-- Wie [erhalten](semesterticket_information) ich mein [Semesterticket](topic)?
-- Wie [bekommen](semesterticket_information:erhalten) ich mein [Semesterticket](topic)?
-- Wie kann ich mein [Semesterticket](topic) [erhalten](semesterticket_information)?
-- Wie kann ich mein [Semesterticket](topic) [bekommen](semesterticket_information:erhalten)?
+## intent:semesterticket_erhalten
+- [erhalten](semesterticket)
+- [bekommen](semesterticket:erhalten)
+- Wie [erhalten](semesterticket) ich mein [Semesterticket](topic)?
+- Wie [bekommen](semesterticket:erhalten) ich mein [Semesterticket](topic)?
+- Wie kann ich mein [Semesterticket](topic) [erhalten](semesterticket)?
+- Wie kann ich mein [Semesterticket](topic) [bekommen](semesterticket:erhalten)?
 
-## intent:inform_imma
-- [Ansprechpartner](imma_information)
-- [Ablauf](imma_information)
-- [Bescheinigung](imma_information)
-
-## intent:inform_ptb
-- [Umfang](ptb_information)
-- [Länge](ptb_information:Umfang)
-- [Seitenanzahl](ptb_information:Umfang)
-- [Richtlinien](ptb_information)
-- [Formalitäten](ptb_information:Richtlinien)
-- [Quellen](ptb_information:Richtlinien)
-- [Zitation](ptb_information:Richtlinien)
-- [zitieren](ptb_information:Richtlinien)
-
-## intent:inform_semesterticket
 
 
