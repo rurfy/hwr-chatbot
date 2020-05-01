@@ -12,6 +12,10 @@ intents:
   - provide_topic_matrikelnummer
   - provide_topic_benutzerkonto
   - provide_topic_mail
+  - provide_topic_noten
+  - provide_topic_wpf
+  - provide_topic_modul
+  - provide_topic_auslandssemester
   - imma_ablauf
   - imma_ansprechpartner
   - imma_bescheinigung
@@ -138,6 +142,18 @@ Existiert dein Nachname bereits an der HWR, enthält deine Kennung noch einen Zu
 
   utter_mail_portal:
   - text: "Weitere Informationen zum Webmail-Portal findest Du hier: https://www.it.hwr-berlin.de/anleitungen/e-mail/anleitung-zur-nutzung-des-openxchange-postfachs/ "
+
+  utter_ask_noten:
+  - text: "Alle Informationen zu Noten / Prüfungsergebnissen findest du hier: https://moodle.hwr-berlin.de/course/view.php?id=266#section-2"
+
+  utter_ask_wpf:
+  - text: "Alle Informationen zu den Wahlpflicht- und Zusatzfächern findest du hier: https://moodle.hwr-berlin.de/course/view.php?id=266#section-3 "
+
+  utter_ask_modul:
+  - text: "Alle Informationen zum Studienablauf (den Modulen und die Studiengangsbeschreibung) findest du hier: https://moodle.hwr-berlin.de/course/view.php?id=266#section-5 "
+
+  utter_ask_auslandssemester:
+  - text: "Alle Informationen zum Auslandssemester findest du hier: https://moodle.hwr-berlin.de/course/view.php?id=266#section-8 "
 
   utter_greet:
   - text: "Hi! Wie kann ich dir weiterhelfen?"

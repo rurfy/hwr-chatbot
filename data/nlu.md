@@ -202,3 +202,48 @@
 - Wo finde ich das [Mail](topic) [Portal](mail)?
 - Wo finde ich das [E-Mail](topic:Mail) [Portal](mail)?
 - Wo finde ich das [Email](topic:Mail) [Portal](mail)?
+
+## intent:provide_topic_noten
+- [Noten](topic)
+- [Note](topic:Noten)
+- [Notenschlüssel](topic:Noten)
+- [Prüfungserbenisse](topic:Noten)
+- [Prüfungsergebnis](topic:Noten)
+- [Zensur](topic:Noten)
+- [Zensuren](topic:Noten)
+- Wann bekomme ich meine [Noten](topic)?
+- Wann bekomme ich meine [Note](topic:Noten)?
+- Wann bekomme ich meine [Prüfungserbenisse](topic:Noten)?
+- Wann bekomme ich meine [Prüfungsergebnis](topic:Noten)?
+- Wann bekomme ich meine [Zensur](topic:Noten)?
+- Wann bekomme ich meine [Zensuren](topic:Noten)?
+- Wie ist der Notenschlüssel
+- Wo erhalte ich meine [Noten](topic)?
+- Wo erhalte ich meine [Note](topic:Noten)?
+- Wo erhalte ich meine [Prüfungserbenisse](topic:Noten)?
+- Wo erhalte ich meine [Prüfungsergebnis](topic:Noten)?
+- Wo erhalte ich meine [Zensur](topic:Noten)?
+- Wo erhalte ich meine [Zensuren](topic:Noten)?
+- Wo finde ich den [Notenschlüssel](topic:Noten)?
+
+## intent:provide_topic_wpf
+- [WPF](topic)
+- [Wahlpflichtfach](topic:WPF)
+- [Zusatzfach](topic:WPF)
+- Wo erfahre ich mehr über das [WPF](topic)?
+- Wo erfahre ich mehr über das [Wahlpflichtfach](topic:WPF)?
+- Wo erfahre ich mehr über das [Zusatzfach](topic:WPF)?
+
+## intent:provide_topic_modul
+- [Modul](topic)
+- [Studiengangsbeschreibung](topic:Modul)
+- [Modulplan](topic:Modulplan)
+- [Studienablauf](topic:Modul)
+- Wo erfahre ich etwas über mein [Modul](topic)?
+- Wo erfahre ich etwas über meinen [Modulplan](topic:Modul)?
+- Wo erfahre ich etwas über meine [Studiengangsbeschreibung](topic:Modul)?
+- Wo erfahre ich etwas über meinen [Studienablauf](topic:Modul)?
+
+## intent:provide_topic_auslandssemester
+- [Auslandssemester](topic)
+- Wo erfahre ich etwas über das [Auslandssemester](topic)?
