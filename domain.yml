@@ -7,6 +7,11 @@ intents:
   - provide_topic_ptb
   - provide_topic_imma
   - provide_topic_semesterticket
+  - provide_topic_studentenausweis
+  - provide_topic_studienberatung
+  - provide_topic_matrikelnummer
+  - provide_topic_benutzerkonto
+  - provide_topic_mail
   - imma_ablauf
   - imma_ansprechpartner
   - imma_bescheinigung
@@ -20,6 +25,14 @@ intents:
   - semesterticket_info
   - semesterticket_ansprechpartner
   - semesterticket_erhalten
+  - studentenausweis_kaputt
+  - studentenausweis_verloren
+  - benutzerkonto_moodle
+  - benutzerkonto_computer
+  - benutzerkonto_pw
+  - mail_adresse
+  - mail_abrufen
+  - mail_portal
   - thanks
 
 entities:
@@ -27,6 +40,9 @@ entities:
   - semesterticket
   - imma
   - ptb
+  - studentenausweis
+  - benutzerkonto
+  - mail
 
 responses:
 
@@ -77,6 +93,51 @@ responses:
 
   utter_semesterticket_info:
   - text: "weitere Informationen findest du hier: https://moodle.hwr-berlin.de/mod/forum/discuss.php?d=10680, https://www.it.hwr-berlin.de/campuscard/haeufige-fragen/"
+
+  utter_ask_studentenausweis:
+  - text: "Ich kann dir bei deinem Studentenausweis helfen, falls du ihn verloren haben solltest oder der Studentenausweis nicht mehr funktioniert."
+
+  utter_studentenausweis_kaputt:
+  - text: "Technische Probleme können vorkommen – bitte entschuldige die Unannehmlichkeiten. Bitte erkundige Dich hier: https://www.it.hwr-berlin.de/campuscard/haeufige-fragen/ "
+  
+  utter_studentenausweis_verloren:
+  - text: "Bei Verlust oder Diebstahl sollte die HWR Berlin CampusCard umgehend im Zulassungs- und Immatrikulationsbüro sowie in der Hochschulbibliothek gesperrt werden. Gegen eine Gebühr von 10,23 Euro können Sie einen neuen QR Code erhalten, der Ihnen die Ausstellung der ermöglicht. Bitte wenden Sie sich diesbezüglich an ihr zuständiges Zulassungs- und Immatrikulationsbüro. Studierende des Fachbereichs 2 wenden sich bitte an das Büro der Geschäftsführung. 
+Haben Sie Guthaben auf der Karte, lassen Sie die Karte zusätzlich an der Kasse einer Studierendenwerksmensa sperren. Voraussetzung ist, dass Sie sich die auf der Rückseite der HWR Berlin CampusCard gedruckte Studierendenwerksnummer notiert haben.
+https://www.it.hwr-berlin.de/campuscard/haeufige-fragen/"
+
+  utter_ask_studienberatung:
+  - text: "Der Ansprechpartner dafür ist Diana Jurgec (diana.jurgec@hwr-berlin.de), Campus Lichtenberg, Haus 5, Raum 5.4003, Alt-Friedrichsfelde 60, 10315 Berlin"
+
+  utter_ask_matrikelnummer:
+  - text: "Im Rahmen der Immatrikulation bekommt jeder Studierende der Hochschule eine Matrikelnummer zugewiesen. Diese ist eindeutig und nur einmal vorhanden. Du musst sie auf den Klausuren und anderen Prüfungsleistungen angeben, damit die Ergebnisse deiner Person zugeordnet werden können. Zudem benötigst du sie auch als Benutzername zu bestimmten Accounts."
+
+  utter_ask_benutzerkonto:
+  - text: "Ich unterstütze dich gerne bei den Benutzerkonten. Ich kann dir sagen, wie du dich bei Moodle oder am Computer der HWR anmeldest. Solltest du dein Passwort vergessen haben, kann ich dir auch weiterhelfen. Wo soll ich dich unterstützen?"
+
+  utter_benutzerkonto_moodle:
+  - text: "Als Benutzername nutzt Du deine Kennung (diese ist der Teil vor dem @ deiner Mailadresse) 
+Das Passwort legst du selbst fest."
+
+  utter_benutzerkonto_computer:
+  - text: "Als Benutzername nutzt Du deine Kennung (diese ist der Teil vor dem @ deiner Mailadresse) 
+Das Passwort entspricht dem Passwort, welches zu bei Moodle gewählt hast."
+
+  utter_benutzerkonto_pw:
+  - text: "Falls du Dein Passwort vergessen hast, nutze bitte die “Passwort vergessen”-Funktion. Du bekommst eine E-Mail und kannst anschließend ein neues Passwort festlegen."
+  
+  utter_ask_mail:
+  - text: "Du hast Fragen zu deiner E-Mail? Wenn du fragen zur Zusammensetzung deiner Adresse, zum Abrufen der Mails oder zum Webmail-Portal hast, kann ich dir weiterhelfen."
+  
+  utter_mail_adresse:
+  - text: "Jeder Studierende bekommt eine HWR-Mailadresse. Diese ist folgendermaßen aufgebaut: 
+S_”Nachname”@stud.hwr-berlin.de 
+Existiert dein Nachname bereits an der HWR, enthält deine Kennung noch einen Zusatz. Dann ist diese Kennung stets zu nutzen."
+
+  utter_mail_abrufen:
+  - text: "Dein Mail-Konto kannst du hier abrufen: https://webmail.stud.hwr-berlin.de/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX "
+
+  utter_mail_portal:
+  - text: "Weitere Informationen zum Webmail-Portal findest Du hier: https://www.it.hwr-berlin.de/anleitungen/e-mail/anleitung-zur-nutzung-des-openxchange-postfachs/ "
 
   utter_greet:
   - text: "Hi! Wie kann ich dir weiterhelfen?"
