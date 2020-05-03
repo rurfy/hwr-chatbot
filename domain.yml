@@ -7,6 +7,7 @@ intents:
   - provide_topic_ptb
   - provide_topic_imma
   - provide_topic_semesterticket
+  - provide_topic_studiengebu
   - imma_ablauf
   - imma_ansprechpartner
   - imma_bescheinigung
@@ -20,6 +21,12 @@ intents:
   - semesterticket_info
   - semesterticket_ansprechpartner
   - semesterticket_erhalten
+  - studiengebu_inhalt
+  - studiengebu_kosten
+  - studiengebu_ueberweisung
+  - studiengebu_zahlung
+  - studiengebu_beleg
+  - studiengebu_weitere_infos
   - thanks
 
 entities:
@@ -27,6 +34,7 @@ entities:
   - semesterticket
   - imma
   - ptb
+  - studiengebu
 
 responses:
 
@@ -77,6 +85,29 @@ responses:
 
   utter_semesterticket_info:
   - text: "weitere Informationen findest du hier: https://moodle.hwr-berlin.de/mod/forum/discuss.php?d=10680, https://www.it.hwr-berlin.de/campuscard/haeufige-fragen/"
+
+  utter_ask_studiengebu:
+  - text: "Ich sehe, du willst mehr zu den Studiengebühren wissen. Bitte verrate mir doch wofür du dich genau interessiert. Ich kann dir bei den folgenden Themen weiterhelfen: Inhalt, Kosten, Überweisung, Zahlung, Beleg und Infos."
+
+  utter_studiengebu_inhalt:
+  - text: "Die Studiengebühr setzt sich aus den folgenden Faktoren zusammen: mmatrikulations-/Rückmeldegebühr (50€), Semesterticket (195,80€), Beitrag für Studierendenschaft (4€), Sozialbeitrag zum Studierendenwerk (54,09€). Weitere Informationen findest du hier: Weitere Informationen findest Du hier: 
+https://www.hwr-berlin.de/studium/studieren-an-der-hwr-berlin/studienorganisation/semesterbeitrag/"
+
+  utter_studiengebu_kosten:
+  - text: "Seid Januar 2020 sind es 303,89€ pro Semester. Weitere Informationen findest Du hier: 
+https://www.hwr-berlin.de/studium/studieren-an-der-hwr-berlin/studienorganisation/semesterbeitrag/ "
+  
+  utter_studiengebu_ueberweisung:
+  - text: "Die Studiengebühren sind pro Semester fällig. Es folgt eine Zahlungsaufforderung mit allen Informationen und dem Zahlungsziel. Ansprechpartnerin: Anne-Katrin Pagel (anne-katrin.pagel@hwr-berlin.de"
+
+  utter_studiengebu_zahlung:
+  - text: "Die Zahlung erfolgt per Überweisung pro Semester, also zwei Mal im Jahr. Hier hast du die Kontoverbindung für die Zahlung: Hochschule für Wirtschaft und Recht Berlin, DE93 1007 0000 0068 5990 02, DEUTDEBBXXX, Deutsche Bank AG. Gib als Verwendungszweck Matrikelnummer und Name an."
+
+  utter_studiengebu_infos:
+  - text: "Hier findest du genauere Informationen zu den Studiengebühren: https://moodle.hwr-berlin.de/mod/forum/discuss.php?d=10680, https://www.hwr-berlin.de/studium/studieren-an-der-hwr-berlin/studienorganisation/semesterbeitrag/"
+  
+  utter_studiengebu_beleg:
+  - text: "Nach erfolgreicher Überweisung bekommst Du innerhalb weniger Werktage Quittungen per Post zugeschickt."
 
   utter_greet:
   - text: "Hi! Wie kann ich dir weiterhelfen?"

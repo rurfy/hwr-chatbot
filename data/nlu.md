@@ -50,7 +50,7 @@
 - [PTB](topic)
 - Kannst du mir beim [PTB](topic) helfen?
 
-# intent:ptb_richtlinien
+## intent:ptb_richtlinien
 - [Formalitäten](ptb:Richtlinien)
 - [Quellen](ptb:Richtlinien)
 - [Zitation](ptb:Richtlinien)
@@ -59,7 +59,7 @@
 - Worauf muss ich beim [Richtlinien](ptb) des [PTB](topic) achten?
 - Was muss ich bei den [Formalitäten](ptb:Richtlinien) des [PTB](topic) beachten?
 
-# intent:ptb_umfang
+## intent:ptb_umfang
 - [Umfang](ptb)
 - [Länge](ptb:Umfang)
 - [Seitenanzahl](ptb:Umfang)
@@ -115,4 +115,41 @@
 - Wie kann ich mein [Semesterticket](topic) [bekommen](semesterticket:erhalten)?
 
 
+## intent:provide_topic_studiengebu
+- [Studiengebühren](topic)
+- Was muss ich bei den [Studiengebühren](topic) beachten?
+- Kannst du mir mit den [Studiengebühren](topic) helfen?
+- Ich brauche Hilfe mit den [Studiengebühren](topic)
 
+## intent:studiengebu_inhalt
+- [Inhalt](studiengebu)
+- [Wofür](studiengebu:Inhalt)
+- [Wofür](studiengebu:Inhalt) muss ich die [Studiengebühren](topic) bezahlen?
+
+## intent:studiengebu_kosten
+- [Kosten](studiengebu)
+- Was [kostet](studiengebu:Kosten) das?
+
+## intent:studiengebu_ueberweisung
+- [Überweisung](studiengebu)
+- Wie [überweise](studiengebu:Überweisung) ich die [Studiengebühren](topic)?
+- [IBAN](studiengebu:Überweisung)
+- [Kontoverbindung](studiengebu:Überweisung)
+- An welche [IBAN](studiengebu:Überweisung) muss ich das Geld für die [Studiengebühren](topic) überweisen?
+- Welchen [Verwendungszweck](studiengebu:Überweisung) muss ich für die [Überweisung](studiengebu) angeben?
+
+## intent:studiengebu_zahlung
+- [Zahlung](studiengebu)
+- Wann muss ich die [Studiengebühren](topic) immer [bezahlen](studiengebu:Zahlen)?
+
+## intent:studiengebu_beleg
+- [Beleg](studiengebu)
+- [Quittung](studiengebu:Beleg)
+- [Rechnung](studiengebu:Beleg)
+- Wie bekomme ich einen [Beleg](studiengebu) für die [Studiengebühren](topic)
+- Wie bekomme ich eine [Quittung](studiengebu:Beleg) für die [Studiengebühren](topic)
+- Wie bekomme ich eine [Rechnung](studiengebu:Beleg) für die [Studiengebühren](topic)
+
+## intent:studiengebu_weitere_infos
+- [Infos](studiengebu)
+- Kannst du mir weiter [Infos](studiengebu) zu den [Studiengebühren](topic) geben?
