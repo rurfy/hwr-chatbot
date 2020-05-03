@@ -114,6 +114,11 @@
 - Wie kann ich mein [Semesterticket](topic) [erhalten](semesterticket)?
 - Wie kann ich mein [Semesterticket](topic) [bekommen](semesterticket:erhalten)?
 
+## intent:provide_topic_studentenausweis
+- [Studentenausweis](topic)
+- [Studierendenausweis](topic:Studentenausweis)
+- [CampusCard](topic:Studentenausweis)
+- Kannst du mir beim [Studentenausweis](topic) weiterhelfen?
 
 ## intent:provide_topic_studiengebu
 - [Studiengebühren](topic)
@@ -153,3 +158,179 @@
 ## intent:studiengebu_weitere_infos
 - [Infos](studiengebu)
 - Kannst du mir weiter [Infos](studiengebu) zu den [Studiengebühren](topic) geben?
+## intent:studentenausweis_kaputt
+- [kaputt](studentenausweis)
+- [funktioniert nicht](studentenausweis:kaputt)
+- [geht nicht](studentenausweis:kaputt)
+- Mein [Studentenausweis](topic) [geht nicht](studentenausweis:kaputt).
+- Mein [Studentenausweis](topic) [funktioniert nicht](studentenausweis:kaputt).
+- Mein [Studentenausweis](topic) ist [kaputt](studentenausweis).
+
+## intent:studentenausweis_verloren
+- [verloren](studentenausweis)
+- Ich habe meinen [Studentenausweis](topic) [verloren](studentenausweis).
+
+## intent:provide_topic_studienberatung
+- [Studienberatung](topic)
+- Kannst du mir sagen, wen ich für die [Studienberatung](topic) anschreiben muss?
+- Kannst du mir bei der [Studienberatung](topic) helfen?
+
+## intent:provide_topic_matrikelnummer
+- [Matrikelnummer](topic)
+- Was ist eine [Matrikelnummer](topic)?
+- Wofür brauche ich eine [Matrikelnummer](topic)?
+- Was kann ich mit der [Matrikelnummer](topic) anfangen?
+
+## intent:provide_topic_benutzerkonto
+- [Benutzerkonto](topic)
+- [Account](topic:Benutzerkonto)
+- [Benutzerkonten](topic:Benutzerkonto)
+- [Anmeldedaten](topic:Benutzerkonto)
+- [anmelden](topic:Benutzerkonto)
+- Kannst du mir bei den [Benutzerkonten](topic:Benutzerkonto) helfen?
+- Ich habe den Überblick über meine [Anmeldedaten](topic:Benutzerkonto) verloren.
+- Ich habe den Überblick über meine [Benutzerkonten](topic:Benutzerkonto) verloren.
+- Ich habe den Überblick über meine [Account](topic:Benutzerkonto) verloren.
+- Kannst du mir sagen wie ich mich [anmelden](topic:Benutzerkonto) muss?
+
+## intent:benutzerkonto_moodle
+- [Moodle](benutzerkonto)
+- Wie muss ich bei [Moodle](benutzerkonto) [anmelden](topic:Benutzerkonto)?
+- Wie [melde](topic:Benutzerkonto) ich mich bei [Moodle](benutzerkonto) an?
+- Was sind die [Anmeldedaten](topic:Benutzerkonto) für [Moodle](benutzerkonto)?
+- Was ist [Moodle](benutzerkonto)?
+
+## intent:benutzerkonto_bib
+- [Bibliothek](benutzerkonto)
+- [OPAC](benutzername:Bibliothek)
+- [Bibliothekskonto](benutzername:Bibliothek)
+- Erzähle mir mehr zur [Bibliothek](benutzerkonto)?
+- Wie [melde](topic:Benutzerkonto) ich mich bei der [Bibliothek](benutzerkonto) an?
+- Wie [melde](topic:Benutzerkonto) ich mich bei [OPAC](benutzerkonto:Bibliothek) an?
+- Wie [melde](topic:Benutzerkonto) ich mich bei meinem [Bibliothekskonto](benutzerkonto:Bibliothek) an?
+
+## intent:benutzerkonto_computer
+- [Computer](benutzerkonto)
+- Wie muss ich am [Computer](benutzerkonto) [anmelden](topic:Benutzerkonto)?
+- Wie melde ich mich am [Computer](benutzerkonto) an?
+- Was sind die [Anmeldedaten](topic:Benutzerkonto) für den [Computer](benutzerkonto)?
+
+## intent:benutzerkonto_pw
+- [Passwort vergessen](benutzerkonto)
+- Was muss ich machen, wenn ich mein [Passwort vergessen](benutzerkonto) habe?
+- Was muss ich machen, wenn ich mein [Passwort vergessen](benutzerkonto) für meinen [Account](topic:Benutzerkonto) habe?
+- Was muss ich machen, wenn ich mein [Passwort vergessen](benutzerkonto) für meinen [Benutzerkonto](topic) habe?
+
+## intent:provide_topic_mail
+- [Mail](topic)
+- [E-Mail](topic:Mail)
+- [Email](topic:Mail)
+
+## intent:mail_adresse
+- [Adresse](mail)
+- [Mailadresse](mail:Adresse)
+- Wie lautet meine [Mail](topic) [Adresse](mail)?
+- Wie lautet meine [E-Mail](topic:Mail) [Adresse](mail)?
+- Wie lautet meine [Email](topic:Mail) [Adresse](mail)?
+- Wie lautet meine [Mailadresse](mail:Adresse)?
+- Wie setzt sich meine [Mail](topic) [Adresse](mail) zusammen?
+- Wie setzt sich meine [E-Mail](topic:Mail) [Adresse](mail) zusammen?
+- Wie setzt sich meine [Email](topic:Mail) [Adresse](mail) zusammen?
+- Wie setzt sich meine [Emailadresse](mail:Adresse) zusammen?
+
+## intent:mail_abrufen
+- [abrufen](mail)
+- Wo kann ich den meine [Mail](topic) [abrufen](mail)?
+- Wo kann ich den meine [E-Mail](topic:Mail) [abrufen](mail)?
+- Wo kann ich den meine [Email](topic:Mail) [abrufen](mail)?
+
+## intent:mail_portal
+- [Portal](mail)
+- Wo finde ich das [Portal](mail)?
+- Wo finde ich das [Mail](topic) [Portal](mail)?
+- Wo finde ich das [E-Mail](topic:Mail) [Portal](mail)?
+- Wo finde ich das [Email](topic:Mail) [Portal](mail)?
+
+## intent:provide_topic_noten
+- [Noten](topic)
+- [Note](topic:Noten)
+- [Notenschlüssel](topic:Noten)
+- [Prüfungserbenisse](topic:Noten)
+- [Prüfungsergebnis](topic:Noten)
+- [Zensur](topic:Noten)
+- [Zensuren](topic:Noten)
+- Wann bekomme ich meine [Noten](topic)?
+- Wann bekomme ich meine [Note](topic:Noten)?
+- Wann bekomme ich meine [Prüfungserbenisse](topic:Noten)?
+- Wann bekomme ich meine [Prüfungsergebnis](topic:Noten)?
+- Wann bekomme ich meine [Zensur](topic:Noten)?
+- Wann bekomme ich meine [Zensuren](topic:Noten)?
+- Wie ist der Notenschlüssel
+- Wo erhalte ich meine [Noten](topic)?
+- Wo erhalte ich meine [Note](topic:Noten)?
+- Wo erhalte ich meine [Prüfungserbenisse](topic:Noten)?
+- Wo erhalte ich meine [Prüfungsergebnis](topic:Noten)?
+- Wo erhalte ich meine [Zensur](topic:Noten)?
+- Wo erhalte ich meine [Zensuren](topic:Noten)?
+- Wo finde ich den [Notenschlüssel](topic:Noten)?
+
+## intent:provide_topic_wpf
+- [WPF](topic)
+- [Wahlpflichtfach](topic:WPF)
+- [Zusatzfach](topic:WPF)
+- Wo erfahre ich mehr über das [WPF](topic)?
+- Wo erfahre ich mehr über das [Wahlpflichtfach](topic:WPF)?
+- Wo erfahre ich mehr über das [Zusatzfach](topic:WPF)?
+
+## intent:provide_topic_modul
+- [Modul](topic)
+- [Studiengangsbeschreibung](topic:Modul)
+- [Modulplan](topic:Modulplan)
+- [Studienablauf](topic:Modul)
+- Wo erfahre ich etwas über mein [Modul](topic)?
+- Wo erfahre ich etwas über meinen [Modulplan](topic:Modul)?
+- Wo erfahre ich etwas über meine [Studiengangsbeschreibung](topic:Modul)?
+- Wo erfahre ich etwas über meinen [Studienablauf](topic:Modul)?
+
+## intent:provide_topic_auslandssemester
+- [Auslandssemester](topic)
+- Wo erfahre ich etwas über das [Auslandssemester](topic)?
+
+## intent:provide_topic_krank
+- [krank](topic)
+- [Attest](topic:krank)
+- [Krankmeldung](topic:krank)
+- [Krankheit](topic:krank)
+- Was muss ich tun, wenn ich [krank](topic) werde?
+- Brauche ich ein [Attest](topic:krank)?
+- Wie melde ich mich [krank](topic)?
+- Was muss ich für eine [Krankmeldung](topic:krank) tun?
+
+## intent:krank_theorie
+- [Theorie](krank)
+- [Theoriephase](krank:Theorie)
+- [Vorlesung](krank:Theorie)
+- [Vorlesungszeit](krank:Theorie)
+- Wie melde ich mich in der [Theorie](krank) [krank](topic)?
+- Wie melde ich mich in der [Theoriephase](krank:Theorie) [krank](topic)?
+- Wie melde ich mich in der [Vorlesungszeit](krank:Theorie) [krank](topic)?
+
+## intent:krank_klausur
+- [Klausur](krank)
+- [Prüfung](krank:Klausur)
+- Wie melde ich mich für die [Klausur](krank) [krank](topic)?
+- Wie melde ich mich für die [Prüfung](krank:Klausur) [krank](topic)?
+- Wie melde ich mich am Tag der [Klausur](krank) [krank](topic)?
+- Wie melde ich mich am Tag der [Prüfung](krank:Klausur) [krank](topic)?
+
+## intent:krank_verlaengerung
+- [Verlängerung](krank)
+- [verlängern](krank:Verlängerung)
+- Wie kann ich meine wissenschaftliche Arbeit [verlängern](krank:Verlängerung)?
+- Wie kann ich meine wissenschaftliche Arbeit bei [Krankheit](topic:krank) [verlängern](krank:Verlängerung)?
+
+## intent:provide_topic_freistellung
+- [Freistellung](topic)
+- [freigestellt](topic:Freistellung)
+- Wie kann ich [freigestellt](topic:Freistellung) werden?
+- Wo finde ich das Formular zur [Freistellung](topic)?

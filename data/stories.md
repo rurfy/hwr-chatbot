@@ -346,6 +346,283 @@
   - utter_goodbye
 
 
+
+## studentenausweis kaputt path
+* greet
+  - utter_greet
+* studentenausweis_kaputt{"topic":"Studentenausweis","studentenausweis":"kaputt"}
+  - utter_studentenausweis_kaputt
+* goodbye
+  - utter_goodbye
+
+## studentenausweis no information kaputt path
+* greet
+  - utter_greet
+* provide_topic_studentenausweis{"topic":"Studentenausweis"}
+  - utter_ask_studentenausweis
+* studentenausweis_kaputt{"studentenausweis":"kaputt"}
+  - utter_studentenausweis_kaputt
+* goodbye
+  - utter_goodbye
+
+## studentenausweis verloren path
+* greet
+  - utter_greet
+* studentenausweis_verloren{"topic":"Studentenausweis","studentenausweis":"verloren"}
+  - utter_studentenausweis_verloren
+* goodbye
+  - utter_goodbye
+
+## studentenausweis no information verloren path
+* greet
+  - utter_greet
+* provide_topic_studentenausweis{"topic":"Studentenausweis"}
+  - utter_ask_studentenausweis
+* studentenausweis_verloren{"studentenausweis":"verloren"}
+  - utter_studentenausweis_verloren
+* goodbye
+  - utter_goodbye
+
+## studienberatung
+* greet
+ - utter_greet
+* provide_topic_studienberatung{"topic":"Studienberatung"}
+ - utter_ask_studienberatung
+* goodbye
+ - utter_goodbye
+
+## matrikelnummer
+* greet
+  - utter_greet
+* provide_topic_matrikelnummer
+  - utter_ask_matrikelnummer
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto moodle path
+* greet
+  - utter_greet
+* benutzerkonto_moodle{"topic":"Benutzerkonto","benutzerkonto":"Moodle"}
+  - utter_benutzerkonto_moodle
+* goodbye
+  - utter_goodbye
+
+<!-- ## benutzerkonto no information moodle path
+* greet
+  - utter_greet
+* provide_topic_benutzerkonto{"topic":"Benutzerkonto"}
+  - utter_ask_benutzerkonto
+* benutzerkonto_moodle{"benutzerkonto":"Moodle"}
+  - utter_benutzerkonto_moodle
+* goodbye
+  - utter_goodbye -->
+
+## moodle
+* greet
+  - utter_greet
+* benutzerkonto_moodle{"benutzerkonto":"Moodle"}
+  - utter_ask_moodle
+
+## benutzerkonto bib path
+* greet
+  - utter_greet
+* benutzerkonto_bib{"topic":"Benutzerkonto","benutzerkonto":"Bibliothek"}
+  - utter_benutzerkonto_bib_anmelden
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto no information bib path
+* greet
+  - utter_greet
+* benutzerkonto_bib{"benutzerkonto":"Bibliothek"}
+  - utter_benutzerkonto_bib
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto computer path
+* greet
+  - utter_greet
+* benutzerkonto_computer{"topic":"Benutzerkonto","benutzerkonto":"Computer"}
+  - utter_benutzerkonto_computer
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto no information computer path
+* greet
+  - utter_greet
+* provide_topic_benutzerkonto{"topic":"Benutzerkonto"}
+  - utter_ask_benutzerkonto
+* benutzerkonto_computer{"benutzerkonto":"Computer"}
+  - utter_benutzerkonto_computer
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto pw path
+* greet
+  - utter_greet
+* benutzerkonto_pw{"topic":"Benutzerkonto","benutzerkonto":"Passwort"}
+  - utter_benutzerkonto_pw
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto no information pw path
+* greet
+  - utter_greet
+* provide_topic_benutzerkonto{"topic":"Benutzerkonto"}
+  - utter_ask_benutzerkonto
+* benutzerkonto_pw{"benutzerkonto":"Passwort"}
+  - utter_benutzerkonto_pw
+* goodbye
+  - utter_goodbye
+
+## mail adresse path
+* greet
+  - utter_greet
+* mail_adresse{"topic":"Mail","mail":"Adresse"}
+  - utter_mail_adresse
+* goodbye
+  - utter_goodbye
+
+## mail no information adresse path
+* greet
+  - utter_greet
+* provide_topic_mail{"topic":"Mail"}
+  - utter_ask_mail
+* mail_adresse{"mail":"Adresse"}
+  - utter_mail_adresse
+* goodbye
+  - utter_goodbye
+
+## mail abrufen path
+* greet
+  - utter_greet
+* mail_abrufen{"topic":"Mail","mail":"abrufen"}
+  - utter_mail_abrufen
+* goodbye
+  - utter_goodbye
+
+## mail no information abrufen path
+* greet
+  - utter_greet
+* provide_topic_mail{"topic":"Mail"}
+  - utter_ask_mail
+* mail_abrufen{"mail":"abrufen"}
+  - utter_mail_abrufen
+* goodbye
+  - utter_goodbye
+
+## mail portal path
+* greet
+  - utter_greet
+* mail_portal{"topic":"Mail","mail":"Portal"}
+  - utter_mail_portal
+* goodbye
+  - utter_goodbye
+
+## mail no information portal path
+* greet
+  - utter_greet
+* provide_topic_mail{"topic":"Mail"}
+  - utter_ask_mail
+* mail_portal{"mail":"Portal"}
+  - utter_mail_portal
+* goodbye
+  - utter_goodbye
+
+## noten
+* greet
+  - utter_greet
+* provide_topic_noten{"topic":"Noten"}
+  - utter_ask_noten
+* goodbye
+  - utter_goodbye
+
+## wpf
+* greet
+  - utter_greet
+* provide_topic_wpf{"topic":"WPF"}
+  - utter_ask_wpf
+* goodbye
+  - utter_goodbye
+
+## modul
+* greet
+  - utter_greet
+* provide_topic_modul{"topic":"Modul"}
+  - utter_ask_modul
+* goodbye
+  - utter_goodbye
+
+## auslandssemester
+* greet
+  - utter_greet
+* provide_topic_auslandssemester{"topic":"Auslandssemster"}
+  - utter_ask_auslandssemester
+* goodbye
+  - utter_goodbye
+
+## krank theorie path
+* greet
+  - utter_greet
+* krank_theorie{"topic":"krank","krank":"Theorie"}
+  - utter_krank_theorie
+* goodbye
+  - utter_goodbye
+
+## krank no information theorie path
+* greet
+  - utter_greet
+* provide_topic_krank{"topic":"krank"}
+  - utter_ask_krank
+* krank_theorie{"krank":"Theorie"}
+  - utter_krank_theorie
+* goodbye
+  - utter_goodbye
+
+## krank klausur path
+* greet
+  - utter_greet
+* krank_klausur{"topic":"krank","krank":"Klausur"}
+  - utter_krank_klausur
+* goodbye
+  - utter_goodbye
+
+## krank no information klausur path
+* greet
+  - utter_greet
+* provide_topic_krank{"topic":"krank"}
+  - utter_ask_krank
+* krank_klausur{"krank":"Klausur"}
+  - utter_krank_klausur
+* goodbye
+  - utter_goodbye
+
+## krank verlängerung path
+* greet
+  - utter_greet
+* krank_verlaengerung{"topic":"krank","krank":"Verlängerung"}
+  - utter_krank_verlaengerung
+* goodbye
+  - utter_goodbye
+
+## krank no information verlängerung path
+* greet
+  - utter_greet
+* provide_topic_krank{"topic":"krank"}
+  - utter_ask_krank
+* krank_verlaengerung{"krank":"Verlängerung"}
+  - utter_krank_verlaengerung
+* goodbye
+  - utter_goodbye
+
+## freistellung
+* greet
+  - utter_greet
+* provide_topic_freistellung{"topic":"Freistellung"}
+  - utter_ask_freistellung
+* goodbye
+  - utter_goodbye
+
 ## say goodbye
 * goodbye
   - utter_goodbye
