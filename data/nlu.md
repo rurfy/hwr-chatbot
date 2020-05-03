@@ -158,13 +158,23 @@
 ## intent:benutzerkonto_moodle
 - [Moodle](benutzerkonto)
 - Wie muss ich bei [Moodle](benutzerkonto) [anmelden](topic:Benutzerkonto)?
-- Wie melde ich mich bei [Moodle] an?
+- Wie [melde](topic:Benutzerkonto) ich mich bei [Moodle](benutzerkonto) an?
 - Was sind die [Anmeldedaten](topic:Benutzerkonto) für [Moodle](benutzerkonto)?
+- Was ist [Moodle](benutzerkonto)?
+
+## intent:benutzerkonto_bib
+- [Bibliothek](benutzerkonto)
+- [OPAC](benutzername:Bibliothek)
+- [Bibliothekskonto](benutzername:Bibliothek)
+- Erzähle mir mehr zur [Bibliothek](benutzerkonto)?
+- Wie [melde](topic:Benutzerkonto) ich mich bei der [Bibliothek](benutzerkonto) an?
+- Wie [melde](topic:Benutzerkonto) ich mich bei [OPAC](benutzerkonto:Bibliothek) an?
+- Wie [melde](topic:Benutzerkonto) ich mich bei meinem [Bibliothekskonto](benutzerkonto:Bibliothek) an?
 
 ## intent:benutzerkonto_computer
 - [Computer](benutzerkonto)
 - Wie muss ich am [Computer](benutzerkonto) [anmelden](topic:Benutzerkonto)?
-- Wie melde ich mich am [Computer] an?
+- Wie melde ich mich am [Computer](benutzerkonto) an?
 - Was sind die [Anmeldedaten](topic:Benutzerkonto) für den [Computer](benutzerkonto)?
 
 ## intent:benutzerkonto_pw
@@ -247,3 +257,42 @@
 ## intent:provide_topic_auslandssemester
 - [Auslandssemester](topic)
 - Wo erfahre ich etwas über das [Auslandssemester](topic)?
+
+## intent:provide_topic_krank
+- [krank](topic)
+- [Attest](topic:krank)
+- [Krankmeldung](topic:krank)
+- [Krankheit](topic:krank)
+- Was muss ich tun, wenn ich [krank](topic) werde?
+- Brauche ich ein [Attest](topic:krank)?
+- Wie melde ich mich [krank](topic)?
+- Was muss ich für eine [Krankmeldung](topic:krank) tun?
+
+## intent:krank_theorie
+- [Theorie](krank)
+- [Theoriephase](krank:Theorie)
+- [Vorlesung](krank:Theorie)
+- [Vorlesungszeit](krank:Theorie)
+- Wie melde ich mich in der [Theorie](krank) [krank](topic)?
+- Wie melde ich mich in der [Theoriephase](krank:Theorie) [krank](topic)?
+- Wie melde ich mich in der [Vorlesungszeit](krank:Theorie) [krank](topic)?
+
+## intent:krank_klausur
+- [Klausur](krank)
+- [Prüfung](krank:Klausur)
+- Wie melde ich mich für die [Klausur](krank) [krank](topic)?
+- Wie melde ich mich für die [Prüfung](krank:Klausur) [krank](topic)?
+- Wie melde ich mich am Tag der [Klausur](krank) [krank](topic)?
+- Wie melde ich mich am Tag der [Prüfung](krank:Klausur) [krank](topic)?
+
+## intent:krank_verlaengerung
+- [Verlängerung](krank)
+- [verlängern](krank:Verlängerung)
+- Wie kann ich meine wissenschaftliche Arbeit [verlängern](krank:Verlängerung)?
+- Wie kann ich meine wissenschaftliche Arbeit bei [Krankheit](topic:krank) [verlängern](krank:Verlängerung)?
+
+## intent:provide_topic_freistellung
+- [Freistellung](topic)
+- [freigestellt](topic:Freistellung)
+- Wie kann ich [freigestellt](topic:Freistellung) werden?
+- Wo finde ich das Formular zur [Freistellung](topic)?

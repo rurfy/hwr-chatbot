@@ -295,13 +295,35 @@
 * goodbye
   - utter_goodbye
 
-## benutzerkonto no information moodle path
+<!-- ## benutzerkonto no information moodle path
 * greet
   - utter_greet
 * provide_topic_benutzerkonto{"topic":"Benutzerkonto"}
   - utter_ask_benutzerkonto
 * benutzerkonto_moodle{"benutzerkonto":"Moodle"}
   - utter_benutzerkonto_moodle
+* goodbye
+  - utter_goodbye -->
+
+## moodle
+* greet
+  - utter_greet
+* benutzerkonto_moodle{"benutzerkonto":"Moodle"}
+  - utter_ask_moodle
+
+## benutzerkonto bib path
+* greet
+  - utter_greet
+* benutzerkonto_bib{"topic":"Benutzerkonto","benutzerkonto":"Bibliothek"}
+  - utter_benutzerkonto_bib_anmelden
+* goodbye
+  - utter_goodbye
+
+## benutzerkonto no information bib path
+* greet
+  - utter_greet
+* benutzerkonto_bib{"benutzerkonto":"Bibliothek"}
+  - utter_benutzerkonto_bib
 * goodbye
   - utter_goodbye
 
@@ -424,6 +446,68 @@
   - utter_greet
 * provide_topic_auslandssemester{"topic":"Auslandssemster"}
   - utter_ask_auslandssemester
+* goodbye
+  - utter_goodbye
+
+## krank theorie path
+* greet
+  - utter_greet
+* krank_theorie{"topic":"krank","krank":"Theorie"}
+  - utter_krank_theorie
+* goodbye
+  - utter_goodbye
+
+## krank no information theorie path
+* greet
+  - utter_greet
+* provide_topic_krank{"topic":"krank"}
+  - utter_ask_krank
+* krank_theorie{"krank":"Theorie"}
+  - utter_krank_theorie
+* goodbye
+  - utter_goodbye
+
+## krank klausur path
+* greet
+  - utter_greet
+* krank_klausur{"topic":"krank","krank":"Klausur"}
+  - utter_krank_klausur
+* goodbye
+  - utter_goodbye
+
+## krank no information klausur path
+* greet
+  - utter_greet
+* provide_topic_krank{"topic":"krank"}
+  - utter_ask_krank
+* krank_klausur{"krank":"Klausur"}
+  - utter_krank_klausur
+* goodbye
+  - utter_goodbye
+
+## krank verlängerung path
+* greet
+  - utter_greet
+* krank_verlaengerung{"topic":"krank","krank":"Verlängerung"}
+  - utter_krank_verlaengerung
+* goodbye
+  - utter_goodbye
+
+## krank no information verlängerung path
+* greet
+  - utter_greet
+* provide_topic_krank{"topic":"krank"}
+  - utter_ask_krank
+* krank_verlaengerung{"krank":"Verlängerung"}
+  - utter_krank_verlaengerung
+* goodbye
+  - utter_goodbye
+
+## freistellung
+* greet
+  - utter_greet
+* provide_topic_freistellung{"topic":"Freistellung"}
+  - utter_ask_freistellung
 * goodbye
   - utter_goodbye
 
