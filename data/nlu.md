@@ -334,3 +334,17 @@
 - [freigestellt](topic:Freistellung)
 - Wie kann ich [freigestellt](topic:Freistellung) werden?
 - Wo finde ich das Formular zur [Freistellung](topic)?
+
+## intent:provide_topic_klausur
+- [Klausur](topic)
+- Ich habe eine Fragen zur [Klausur](topic)
+- Ich habe Fragen zu den [Klausuren](topic:Klausur)
+
+## intent:klausur_ablauf
+- Wie [läuft](klausur:Ablauf) die [Klausur](topic) ab?
+- Kannst du mir mehr über den [Ablauf](klausur) der [Klausur](topic) sagen?
+
+## intent:klausur_material
+- Was muss ich alles zur [Klausur](topic) [mitbringen](klausur:Material)?
+- Welche [Materialien](klausur:Material) brauche ich für die [Klausur](topic)?
+- Muss ich etwas zur [Klausur](topic) [mitbringen](klausur:Material)?

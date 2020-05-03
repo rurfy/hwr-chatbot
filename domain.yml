@@ -19,6 +19,7 @@ intents:
   - provide_topic_auslandssemester
   - provide_topic_krank
   - provide_topic_freistellung
+  - provide_topic_klausur
   - imma_ablauf
   - imma_ansprechpartner
   - imma_bescheinigung
@@ -50,6 +51,8 @@ intents:
   - krank_theorie
   - krank_klausur
   - krank_verlaengerung
+  - klausur_ablauf
+  - klausur_material
   - thanks
 
 entities:
@@ -62,6 +65,7 @@ entities:
   - benutzerkonto
   - mail
   - krank
+  - klausur
 
 responses:
 
@@ -72,7 +76,7 @@ responses:
   - text: "Du willst mehr über die Imma wissen? Dann sag mir bitte wofür du dich genau interessierst"
 
   utter_imma_ansprechpartner:
-  - text: "Ansprechpartner zur Immatrikulation ist das Fachrichtungsbüro. Dieses besteht aus Frau Heydeck (daniela.heydeck@hwr-berlin.de) und Frau Affeldt (simone.affledt@hwr-berlin.de)"
+  - text: "Ansprechpartner zur Immatrikulation ist das Fachrichtungsbüro. Dieses besteht aus Frau Heydeck (daniela.heydeck@hwr-berlin.de) und Frau Affeldt (simone.affeldt@hwr-berlin.de)"
 
   utter_imma_bescheinigung:
   - text: "Nach abgeschlossener Immatrikulation bekommst Du eine Bescheinigung per Post zugeschickt"
@@ -222,6 +226,15 @@ Sollte kein Attest/Formular nach 3 Werktagen bei uns eingehen, wird die Prüfung
 
   utter_ask_freistellung:
   - text: "Siehe beigefügtes „Infoblatt Anwesenheit und Freistellungen“ bzw. unter: https://moodle.hwr-berlin.de/mod/folder/view.php?id=49501. Seitens des Ausbildungsunternehmens sollten 5 Freistellungstage pro Semester und Studierende/m nicht überschritten werden."
+
+  utter_ask_klausur:
+  - text: "Du möchtest mehr zur Klausur wissen? Da kann ich dir weiterhelfen! Möchtest du etwas zum Ablauf der Klausur oder zu den Materialien wissen?"
+
+  utter_klausur_ablauf:
+  - text: "Finde dich ca. 15 Minuten vor dem Raum ein. Die Aufsicht wird Euch kurz vor Prüfungsbeginn reinholen. In dem Raum findet ihr meist Einzeltische vor, für die einzelnen Reihen sind Kurse hinterlegt. Finde dich auf einem Platz ein. Beriete deinen Platz mit den nötigen Arbeitsmitteln ein. Verstaue deine Tasche und Jacke am Rand des Raums. Die Aufsicht wird nach der Prüfungsfähigkeit fragen. Anschließend werden die Klausuren in Briefumschlägen verteilt. Nach dem Start-Zeichen der Aufsicht kannst du beginnen. Während der Klausur musst du deine Anwesenheit auf einer Liste bestätigen und unterschreiben. Habe hierfür deinen Studierendenausweis griffbereit. Musst du während der Prüfung auf die Toilette trägst du dich beim Verlassen des Raumes in eine Liste ein, bei der Rückkehr unterschreibst du erneut. Am Ende der Prüfungszeit tust du deine Unterlagen vollständig in den Umschlag zurück und gibst ab. Nicht benutze Blätter werden ebenfalls abgegeben. Packe deine persönlichen Sachen und verlasse den Raum leise."
+
+  utter_klausur_material:
+  - text: "Für die Klausur bekommst du Papier gestellt. Wenn zu deiner Prüfung Hilfsmittel zugelassen sind (z.B. Formelsammlung, Gesetzestexte, Taschenrechner), musst du diese selbst mitbringen. Denk auch an Deinen Studierendenausweis (CampusCard) "
 
   utter_greet:
   - text: "Hi! Wie kann ich dir weiterhelfen?"

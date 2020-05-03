@@ -623,6 +623,43 @@
 * goodbye
   - utter_goodbye
 
+
+## klausur ablauf path
+* greet
+  - utter_greet
+* klausur_ablauf{"topic":"Klausur","klausur":"Ablauf"}
+  - utter_klausur_ablauf
+* goodbye
+  - utter_goodbye
+
+## klausur no information ablauf path
+* greet
+  - utter_greet
+* provide_topic_klausur{"topic":"Klausur"}
+  - utter_ask_klausur
+* klausur_ablauf{"Klausur":"Ablauf"}
+  - utter_klausur_ablauf
+* goodbye
+  - utter_goodbye
+
+## klausur material path
+* greet
+  - utter_greet
+* klausur_material{"topic":"Klausur","klausur":"Material"}
+  - utter_klausur_material
+* goodbye
+  - utter_goodbye
+
+## klausur no information material path
+* greet
+  - utter_greet
+* provide_topic_klausur{"topic":"Klausur"}
+  - utter_ask_klausur
+* klausur_material{"Klausur":"Material"}
+  - utter_klausur_material
+* goodbye
+  - utter_goodbye
+
 ## say goodbye
 * goodbye
   - utter_goodbye
