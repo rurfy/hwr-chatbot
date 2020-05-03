@@ -16,6 +16,8 @@ intents:
   - provide_topic_wpf
   - provide_topic_modul
   - provide_topic_auslandssemester
+  - provide_topic_krank
+  - provide_topic_freistellung
   - imma_ablauf
   - imma_ansprechpartner
   - imma_bescheinigung
@@ -32,11 +34,15 @@ intents:
   - studentenausweis_kaputt
   - studentenausweis_verloren
   - benutzerkonto_moodle
+  - benutzerkonto_bib
   - benutzerkonto_computer
   - benutzerkonto_pw
   - mail_adresse
   - mail_abrufen
   - mail_portal
+  - krank_theorie
+  - krank_klausur
+  - krank_verlaengerung
   - thanks
 
 entities:
@@ -47,6 +53,7 @@ entities:
   - studentenausweis
   - benutzerkonto
   - mail
+  - krank
 
 responses:
 
@@ -116,11 +123,17 @@ https://www.it.hwr-berlin.de/campuscard/haeufige-fragen/"
   - text: "Im Rahmen der Immatrikulation bekommt jeder Studierende der Hochschule eine Matrikelnummer zugewiesen. Diese ist eindeutig und nur einmal vorhanden. Du musst sie auf den Klausuren und anderen Prüfungsleistungen angeben, damit die Ergebnisse deiner Person zugeordnet werden können. Zudem benötigst du sie auch als Benutzername zu bestimmten Accounts."
 
   utter_ask_benutzerkonto:
-  - text: "Ich unterstütze dich gerne bei den Benutzerkonten. Ich kann dir sagen, wie du dich bei Moodle oder am Computer der HWR anmeldest. Solltest du dein Passwort vergessen haben, kann ich dir auch weiterhelfen. Wo soll ich dich unterstützen?"
+  - text: "Ich unterstütze dich gerne bei den Benutzerkonten. Ich kann dir sagen, wie du dich bei Moodle, bei der Bibliothek oder am Computer der HWR anmeldest. Solltest du dein Passwort vergessen haben, kann ich dir auch weiterhelfen. Wo soll ich dich unterstützen?"
 
   utter_benutzerkonto_moodle:
   - text: "Als Benutzername nutzt Du deine Kennung (diese ist der Teil vor dem @ deiner Mailadresse) 
 Das Passwort legst du selbst fest."
+
+  utter_benutzerkonto_bib:
+  - text: "Alle Informationen zu den Bibliotheken an den Standorten der HWR findets du hier: https://www.hwr-berlin.de/hwr-berlin/serviceeinrichtungen/bibliotheken/ "
+
+  utter_benutzerkonto_bib_anmelden:
+  - text: "Für den Login musst du deine Matrikelnummer als Benutzername verwenden und Passwort ist das Selbe wie bei Moodle."
 
   utter_benutzerkonto_computer:
   - text: "Als Benutzername nutzt Du deine Kennung (diese ist der Teil vor dem @ deiner Mailadresse) 
@@ -154,6 +167,31 @@ Existiert dein Nachname bereits an der HWR, enthält deine Kennung noch einen Zu
 
   utter_ask_auslandssemester:
   - text: "Alle Informationen zum Auslandssemester findest du hier: https://moodle.hwr-berlin.de/course/view.php?id=266#section-8 "
+
+  utter_ask_moodle:
+  - text: "Moodle ist das Studierendenportal der HWR. Hier findest du einzelne Bereiche der Kurse. Dozenten können Dateien hochladen. Studierende können Dateien zur Bewertung abgeben. Des Weiteren werden Vorlesungen zum Abschluss evaluiert. Es gibt Foren und viele weitere Funktionen, um die Studienzeit zu unterstützen.
+  Bei weiteren Fragen kannst Du dich direkt an das E-Learning Zentrum (elearning@hwr-berlin.de) wenden."
+
+  utter_ask_krank:
+  - text: "Du hast Fragen zum Thema Krankheit? Wenn du wissen möchtest, wie du dich während der Theoriephase oder am Prüfungstag richtig krank meldest bzw. wie du deine wissenschaftliche Arbeit verlängern kannst, dann kann ich dir weiterhelfen."
+
+  utter_krank_theorie:
+  - text: "Bei Krankheit muss spät. am 3. Tag der Krankenschein beim Ausbildungsunternehmen eingehen (Achtung: der Samstag zählt hierbei auch als Werktag!); 
+das WI-Fachrichtungsbüro - Frau Affeldt (simone.affeldt@hwr-berlin.de) erhält eine Kopie des Krankenscheins per E-Mail. 
+Wer sich – wie in ihrem/seinen Ausbildungsunternehmen in der Praxisphase üblich – nur für ein/zwei/drei Tage OHNE Krankschreibung krankmeldet, sollte dann auch in der Theoriephase die/den betreffende/n Dozent/in und uns davon in Kenntnis setzen. 
+Eine formlose Mail an die/den Lehrende/n reicht aus UND setzen Sie das WI-Fachrichtungsbüro - Frau Affeldt (simone.affeldt@hwr-berlin.de) ins Mail-Cc, auch wenn Sie Ihr Unternehmen per Mail informieren. "
+
+  utter_krank_klausur:
+  - text: "Sollten Sie aus Krankheitsgründen nicht an einer Prüfung teilnehmen können, ist laut § 13 (2) der Rahmenstudien- und prüfungsordnung innerhalb von 3 Werktagen ein ärztliches Attest im ORIGINAL im WI-Fachrichtungsbüro bei Frau Affeldt einzureichen. 
+Der „gelbe“ Krankenschein reicht dafür NICHT aus und wird als Entschuldigung bei Abwesenheit an einem Klausur- / Nachklausur- / Wiederholungsklausurtermin NICHT akzeptiert. Achtung: der Samstag zählt hierbei auch als Werktag! 
+Es zählt nur das von der HWR vorgegebene „Formular für die Bescheinigung der Prüfungsunfähigkeit“ oder ein von der/dem behandelnde/n Ärztin/Arzt ausgestelltes Attest, aus dem sich die Beschreibung der gesundheitlichen Beeinträchtigung (nicht der Krankheit selbst) und die sich daraus ergebende Behinderung in der Prüfung ergibt. Das ausgefüllte Formular ist im Original innerhalb von 3 Werktagen im WI-Fachrichtungsbüro bei Frau Affeldt abzugeben. 
+Sollte kein Attest/Formular nach 3 Werktagen bei uns eingehen, wird die Prüfung mit 5,0 bewertet. In diesem Fall erhalten Sie danach vom WI-Fachrichtungsbüro einen neuen Termin zur 1. bzw. 2. Wiederholungsprüfung. Laut § 17 (1) Rahmenstudien- und prüfungsordnung können studienbegleitende Prüfungen maximal 2x wiederholt werden (Ausnahmen: Bachelor Thesis & Kolloquium können nur 1x wiederholt werden). Wurde ein Modul nach der 2. Wiederholungsprüfung nicht bestanden bzw. wurde unentschuldigt nicht teilgenommen, erfolgt die Exmatrikulation. Siehe auch Infoblätter unter: https://moodle.hwr-berlin.de/course/view.php?id=266#section-2. "
+
+  utter_krank_verlaengerung:
+  - text: "Sie stellen auf dem entsprechenden Formblatt einen „Antrag auf Verlängerung der Bearbeitungszeit“, fügen eine Kopie Ihrer Krankschreibung bei und senden alles zusammen per Mail an mich, die WI-Assistenz. Siehe auch Infoblätter unter: https://moodle.hwr-berlin.de/course/view.php?id=266#section-6."
+
+  utter_ask_freistellung:
+  - text: "Siehe beigefügtes „Infoblatt Anwesenheit und Freistellungen“ bzw. unter: https://moodle.hwr-berlin.de/mod/folder/view.php?id=49501. Seitens des Ausbildungsunternehmens sollten 5 Freistellungstage pro Semester und Studierende/m nicht überschritten werden."
 
   utter_greet:
   - text: "Hi! Wie kann ich dir weiterhelfen?"
