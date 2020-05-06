@@ -235,6 +235,118 @@
 * goodbye
   - utter_goodbye
 
+
+
+## studiengebu inhalt path
+* greet
+  - utter_greet
+* studiengebu_inhalt{"studiengebu":"Inhalt", "topic":"Studiengebühren"}
+  - utter_studiengebu_inhalt
+* goodbye
+  - utter_goodbye
+
+## studiengebu no information inhalt path
+* greet
+  - utter_greet
+* provide_topic_studiengebu{"topic":"Studiengebühren"}
+  - utter_ask_studiengebu
+* studiengebu_inhalt{"studiengebu":"Inhalt"}
+  - utter_studiengebu_inhalt
+* goodbye
+  - utter_goodbye
+
+## studiengebu kosten path
+* greet
+  - utter_greet
+* studiengebu_kosten{"studiengebu":"Kosten", "topic":"Studiengebühren"}
+  - utter_studiengebu_kosten
+* goodbye
+  - utter_goodbye
+
+## studiengebu no information kosten path
+* greet
+  - utter_greet
+* provide_topic_studiengebu{"topic":"Studiengebühren"}
+  - utter_ask_studiengebu
+* studiengebu_kosten{"studiengebu":"Kosten"}
+  - utter_studiengebu_kosten
+* goodbye
+  - utter_goodbye
+
+## studiengebu ueberweisung path
+* greet
+  - utter_greet
+* studiengebu_ueberweisung{"studiengebu":"Überweisung", "topic":"Studiengebühren"}
+  - utter_studiengebu_ueberweisung
+* goodbye
+  - utter_goodbye
+
+## studiengebu no information ueberweisung path
+* greet
+  - utter_greet
+* provide_topic_studiengebu{"topic":"Studiengebühren"}
+  - utter_ask_studiengebu
+* studiengebu_ueberweisung{"studiengebu":"Überweisung"}
+  - utter_studiengebu_ueberweisung
+* goodbye
+  - utter_goodbye
+
+## studiengebu zahlung path
+* greet
+  - utter_greet
+* studiengebu_zahlung{"studiengebu":"Zahlung", "topic":"Studiengebühren"}
+  - utter_studiengebu_zahlung
+* goodbye
+  - utter_goodbye
+
+## studiengebu no information zahlung path
+* greet
+  - utter_greet
+* provide_topic_studiengebu{"topic":"Studiengebühren"}
+  - utter_ask_studiengebu
+* studiengebu_zahlung{"studiengebu":"Zahlung"}
+  - utter_studiengebu_zahlung
+* goodbye
+  - utter_goodbye
+
+## studiengebu beleg path
+* greet
+  - utter_greet
+* studiengebu_beleg{"studiengebu":"Beleg", "topic":"Studiengebühren"}
+  - utter_studiengebu_beleg
+* goodbye
+  - utter_goodbye
+
+## studiengebu no information beleg path
+* greet
+  - utter_greet
+* provide_topic_studiengebu{"topic":"Studiengebühren"}
+  - utter_ask_studiengebu
+* studiengebu_beleg{"studiengebu":"Beleg"}
+  - utter_studiengebu_beleg
+* goodbye
+  - utter_goodbye
+
+## studiengebu infos path
+* greet
+  - utter_greet
+* studiengebu_weitere_infos{"studiengebu":"Infos", "topic":"Studiengebühren"}
+  - utter_studiengebu_infos
+* goodbye
+  - utter_goodbye
+
+## studiengebu no information infos path
+* greet
+  - utter_greet
+* provide_topic_studiengebu{"topic":"Studiengebühren"}
+  - utter_ask_studiengebu
+* studiengebu_weitere_infos{"studiengebu":"Infos"}
+  - utter_studiengebu_infos
+* goodbye
+  - utter_goodbye
+
+
+
 ## studentenausweis kaputt path
 * greet
   - utter_greet
@@ -508,6 +620,43 @@
   - utter_greet
 * provide_topic_freistellung{"topic":"Freistellung"}
   - utter_ask_freistellung
+* goodbye
+  - utter_goodbye
+
+
+## klausur ablauf path
+* greet
+  - utter_greet
+* klausur_ablauf{"topic":"Klausur","klausur":"Ablauf"}
+  - utter_klausur_ablauf
+* goodbye
+  - utter_goodbye
+
+## klausur no information ablauf path
+* greet
+  - utter_greet
+* provide_topic_klausur{"topic":"Klausur"}
+  - utter_ask_klausur
+* klausur_ablauf{"Klausur":"Ablauf"}
+  - utter_klausur_ablauf
+* goodbye
+  - utter_goodbye
+
+## klausur material path
+* greet
+  - utter_greet
+* klausur_material{"topic":"Klausur","klausur":"Material"}
+  - utter_klausur_material
+* goodbye
+  - utter_goodbye
+
+## klausur no information material path
+* greet
+  - utter_greet
+* provide_topic_klausur{"topic":"Klausur"}
+  - utter_ask_klausur
+* klausur_material{"Klausur":"Material"}
+  - utter_klausur_material
 * goodbye
   - utter_goodbye
 

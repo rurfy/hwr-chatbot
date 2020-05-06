@@ -7,6 +7,7 @@ intents:
   - provide_topic_ptb
   - provide_topic_imma
   - provide_topic_semesterticket
+  - provide_topic_studiengebu
   - provide_topic_studentenausweis
   - provide_topic_studienberatung
   - provide_topic_matrikelnummer
@@ -18,6 +19,7 @@ intents:
   - provide_topic_auslandssemester
   - provide_topic_krank
   - provide_topic_freistellung
+  - provide_topic_klausur
   - imma_ablauf
   - imma_ansprechpartner
   - imma_bescheinigung
@@ -31,6 +33,12 @@ intents:
   - semesterticket_info
   - semesterticket_ansprechpartner
   - semesterticket_erhalten
+  - studiengebu_inhalt
+  - studiengebu_kosten
+  - studiengebu_ueberweisung
+  - studiengebu_zahlung
+  - studiengebu_beleg
+  - studiengebu_weitere_infos
   - studentenausweis_kaputt
   - studentenausweis_verloren
   - benutzerkonto_moodle
@@ -43,6 +51,8 @@ intents:
   - krank_theorie
   - krank_klausur
   - krank_verlaengerung
+  - klausur_ablauf
+  - klausur_material
   - thanks
 
 entities:
@@ -50,10 +60,12 @@ entities:
   - semesterticket
   - imma
   - ptb
+  - studiengebu
   - studentenausweis
   - benutzerkonto
   - mail
   - krank
+  - klausur
 
 responses:
 
@@ -64,7 +76,7 @@ responses:
   - text: "Du willst mehr über die Imma wissen? Dann sag mir bitte wofür du dich genau interessierst"
 
   utter_imma_ansprechpartner:
-  - text: "Ansprechpartner zur Immatrikulation ist das Fachrichtungsbüro. Dieses besteht aus Frau Heydeck (daniela.heydeck@hwr-berlin.de) und Frau Affeldt (simone.affledt@hwr-berlin.de)"
+  - text: "Ansprechpartner zur Immatrikulation ist das Fachrichtungsbüro. Dieses besteht aus Frau Heydeck (daniela.heydeck@hwr-berlin.de) und Frau Affeldt (simone.affeldt@hwr-berlin.de)"
 
   utter_imma_bescheinigung:
   - text: "Nach abgeschlossener Immatrikulation bekommst Du eine Bescheinigung per Post zugeschickt"
@@ -105,6 +117,28 @@ responses:
   utter_semesterticket_info:
   - text: "weitere Informationen findest du hier: https://moodle.hwr-berlin.de/mod/forum/discuss.php?d=10680, https://www.it.hwr-berlin.de/campuscard/haeufige-fragen/"
 
+  utter_ask_studiengebu:
+  - text: "Ich sehe, du willst mehr zu den Studiengebühren wissen. Bitte verrate mir doch wofür du dich genau interessiert. Ich kann dir bei den folgenden Themen weiterhelfen: Inhalt, Kosten, Überweisung, Zahlung, Beleg und Infos."
+
+  utter_studiengebu_inhalt:
+  - text: "Die Studiengebühr setzt sich aus den folgenden Faktoren zusammen: mmatrikulations-/Rückmeldegebühr (50€), Semesterticket (195,80€), Beitrag für Studierendenschaft (4€), Sozialbeitrag zum Studierendenwerk (54,09€). Weitere Informationen findest du hier: Weitere Informationen findest Du hier: 
+https://www.hwr-berlin.de/studium/studieren-an-der-hwr-berlin/studienorganisation/semesterbeitrag/"
+
+  utter_studiengebu_kosten:
+  - text: "Seid Januar 2020 sind es 303,89€ pro Semester. Weitere Informationen findest Du hier: 
+https://www.hwr-berlin.de/studium/studieren-an-der-hwr-berlin/studienorganisation/semesterbeitrag/ "
+  
+  utter_studiengebu_ueberweisung:
+  - text: "Die Studiengebühren sind pro Semester fällig. Es folgt eine Zahlungsaufforderung mit allen Informationen und dem Zahlungsziel. Ansprechpartnerin: Anne-Katrin Pagel (anne-katrin.pagel@hwr-berlin.de"
+
+  utter_studiengebu_zahlung:
+  - text: "Die Zahlung erfolgt per Überweisung pro Semester, also zwei Mal im Jahr. Hier hast du die Kontoverbindung für die Zahlung: Hochschule für Wirtschaft und Recht Berlin, DE93 1007 0000 0068 5990 02, DEUTDEBBXXX, Deutsche Bank AG. Gib als Verwendungszweck Matrikelnummer und Name an."
+
+  utter_studiengebu_infos:
+  - text: "Hier findest du genauere Informationen zu den Studiengebühren: https://moodle.hwr-berlin.de/mod/forum/discuss.php?d=10680, https://www.hwr-berlin.de/studium/studieren-an-der-hwr-berlin/studienorganisation/semesterbeitrag/"
+  
+  utter_studiengebu_beleg:
+  - text: "Nach erfolgreicher Überweisung bekommst Du innerhalb weniger Werktage Quittungen per Post zugeschickt."
   utter_ask_studentenausweis:
   - text: "Ich kann dir bei deinem Studentenausweis helfen, falls du ihn verloren haben solltest oder der Studentenausweis nicht mehr funktioniert."
 
@@ -192,6 +226,15 @@ Sollte kein Attest/Formular nach 3 Werktagen bei uns eingehen, wird die Prüfung
 
   utter_ask_freistellung:
   - text: "Siehe beigefügtes „Infoblatt Anwesenheit und Freistellungen“ bzw. unter: https://moodle.hwr-berlin.de/mod/folder/view.php?id=49501. Seitens des Ausbildungsunternehmens sollten 5 Freistellungstage pro Semester und Studierende/m nicht überschritten werden."
+
+  utter_ask_klausur:
+  - text: "Du möchtest mehr zur Klausur wissen? Da kann ich dir weiterhelfen! Möchtest du etwas zum Ablauf der Klausur oder zu den Materialien wissen?"
+
+  utter_klausur_ablauf:
+  - text: "Finde dich ca. 15 Minuten vor dem Raum ein. Die Aufsicht wird Euch kurz vor Prüfungsbeginn reinholen. In dem Raum findet ihr meist Einzeltische vor, für die einzelnen Reihen sind Kurse hinterlegt. Finde dich auf einem Platz ein. Beriete deinen Platz mit den nötigen Arbeitsmitteln ein. Verstaue deine Tasche und Jacke am Rand des Raums. Die Aufsicht wird nach der Prüfungsfähigkeit fragen. Anschließend werden die Klausuren in Briefumschlägen verteilt. Nach dem Start-Zeichen der Aufsicht kannst du beginnen. Während der Klausur musst du deine Anwesenheit auf einer Liste bestätigen und unterschreiben. Habe hierfür deinen Studierendenausweis griffbereit. Musst du während der Prüfung auf die Toilette trägst du dich beim Verlassen des Raumes in eine Liste ein, bei der Rückkehr unterschreibst du erneut. Am Ende der Prüfungszeit tust du deine Unterlagen vollständig in den Umschlag zurück und gibst ab. Nicht benutze Blätter werden ebenfalls abgegeben. Packe deine persönlichen Sachen und verlasse den Raum leise."
+
+  utter_klausur_material:
+  - text: "Für die Klausur bekommst du Papier gestellt. Wenn zu deiner Prüfung Hilfsmittel zugelassen sind (z.B. Formelsammlung, Gesetzestexte, Taschenrechner), musst du diese selbst mitbringen. Denk auch an Deinen Studierendenausweis (CampusCard) "
 
   utter_greet:
   - text: "Hi! Wie kann ich dir weiterhelfen?"
