@@ -21,7 +21,7 @@
 
 ## imma ansprechpartner path
 
-* provide_topic_imma{"imma":"Ansprechpartner", "topic":"Immatrikulation"}
+* provide_topic_imma{"semesterticket":"Ansprechpartner", "topic":"Immatrikulation"}
   - utter_imma_ansprechpartner
 * goodbye
   - utter_goodbye 
@@ -556,7 +556,7 @@
 ## auslandssemester
 * greet
   - utter_greet
-* provide_topic_auslandssemester{"topic":"Auslandssemster"}
+* provide_topic_auslandssemester{"topic":"Auslandssemester"}
   - utter_ask_auslandssemester
 * goodbye
   - utter_goodbye

@@ -39,8 +39,8 @@
 - Was muss ich beim [Ablauf](imma) der [Immatrikulation](topic) beachten?
 
 ## intent:imma_ansprechpartner
-- [Ansprechpartner](imma)
-- Wenn muss ich zum Thema [Ansprechpartner](imma) fragen?
+- [Ansprechpartner](semesterticket)
+- Wenn muss ich zum Thema [Ansprechpartner](semesterticket) fragen?
 
 ## intent:imma_bescheinigung
 - [Bescheinigung](imma)
@@ -123,7 +123,7 @@
 ## intent:provide_topic_studiengebu
 - [Studiengebühren](topic)
 - Was muss ich bei den [Studiengebühren](topic) beachten?
-- Kannst du mir mit den [Studiengebühren](topic) helfen?
+<!-- - Kannst du mir mit den [Studiengebühren](topic) helfen? -->
 - Ich brauche Hilfe mit den [Studiengebühren](topic)
 
 ## intent:studiengebu_inhalt
